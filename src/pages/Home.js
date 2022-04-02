@@ -1,4 +1,10 @@
 import React from "react";
+import {Helmet} from "react-helmet";
+import Config from "../Config.json";
+
+const TITLE = "Home | " + Config.SITE_TITLE;
+const DESC = "This is the home page of the VIStA Research Group.";
+const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Home extends React.Component{
     render() {
@@ -12,6 +18,14 @@ class Home extends React.Component{
 
             <div className="container">
                 <main>
+
+                    <Helmet>
+                        <title>{TITLE}</title>
+                        <link rel="canonical" href={CANONICAL} />
+                        <meta name="description" content={DESC}/>
+                        <meta name="theme-color" content={Config.THEME_COLOR} />
+                    </Helmet>
+
                     <section className="introduction">
                         <h3>Introduction</h3>
                         <p><strong>VIStA</strong> is a research group under the department of computer science at the University of Rochester. Directed by Professor Jiebo Luo, VIStA works on a wide-range of topics spanning from computer vision to social media data mining. Currently, it has more than 30 active researchers with a dozen projects in progress. 
