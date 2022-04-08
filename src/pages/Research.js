@@ -10,7 +10,8 @@ const CANONICAL = Config.SITE_DOMAIN + "/research";
 class Research extends React.Component{
     
     render() {
-        return (<main>
+        return (        
+        <main>
 
             <Helmet>
                 <title>{TITLE}</title>
@@ -19,7 +20,67 @@ class Research extends React.Component{
                 <meta name="theme-color" content={Config.THEME_COLOR} />
             </Helmet>
 
-            <h3>Research</h3>
+            {/* Tab links */}
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Computer Vision')">Computer Vision, NLP &amp; Media Understanding</button>
+                <button class="tablinks" onclick="openCity(event, 'Machine Learning')">Machine Learning</button>
+                <button class="tablinks" onclick="openCity(event, 'Social Media Data Mining')">Web &amp; Social Media Data Mining</button>
+                <button class="tablinks" onclick="openCity(event, 'Biomedical Analytics')">Biomedical Analytics &amp; Health Informatics</button>
+                <button class="tablinks" onclick="openCity(event, 'Human Computer Interaction')">Human Computer Interaction</button>
+                <button class="tablinks" onclick="openCity(event, 'Pervasative Computing')">Mobile &amp; Pervasive Computing</button>
+            </div>
+
+            {/* Tab content */}
+            <div id="Computer Vision" class="tabcontent">
+                <h3>Computer Vision, NLP &amp; Media Understanding</h3>
+                <h4>2022</h4>
+                <ul>
+                    <li>Wei Zhu, Zihe Zheng, Haitian Zheng, Hanjia Lyu, Jiebo Luo, 
+                        "Learning to Aggregate and Refine Noisy Labels for Visual Sentiment Analysis," 
+                        International Conference on Pattern Recognition (ICPR), Montreal, Quebec, Canada, August 2022.</li>
+                    <li>Zhengyuan Yang, Jingen Liu, Jing Huang, Xiaodong He, Tao Mei, Chenliang Xu, Jiebo Luo, 
+                        "Cross-modal Contrastive Distillation for Instructional Activity Anticipation," 
+                        International Conference on Pattern Recognition (ICPR), Montreal, Quebec, Canada, August 2022.</li>
+                    <li>Zhongjie Yu, Gaoang Wang, Lin Chen, Jiebo Luo, Sebastian Raschka, 
+                        "When Few-Shot Learning Meets Video Object Detection," 
+                        International Conference on Pattern Recognition (ICPR), Montreal, Quebec, Canada, August 2022.</li>
+                    <li>Wei Zhu, Le Lu, Jing Xiao, Mei Han, Jiebo Luo, Adam Harrison, "Localized Adversarial Domain Generalization," 
+                        IEEE/CVF Conferences on Computer Vision and Pattern Recognition (CVPR), June 2022.</li>
+                    <li>Kai Zhu, Yang Cao, Wei Zhai, Jiebo Luo, Zheng-jun Zha, 
+                        "Self-Sustaining Representation Expansion for Non-Exemplar Class-Incremental Learning," 
+                        IEEE/CVF Conferences on Computer Vision and Pattern Recognition (CVPR), June 2022.</li>
+                    <li>Fuchen Long, Zhaofu Qiu, Yingwei Pan, Ting Yao, Jiebo Luo, Tao Mei. 
+                        "Stand-Alone Inter-Frame Attention in Video Models," 
+                        IEEE/CVF Conferences on Computer Vision and Pattern Recognition (CVPR), June 2022.</li>
+                    <li>Jing Shi, Ning Xu, Haitian Zheng, Alex Smith, Jiebo Luo, Chenliang Xu, 
+                        "SpaceEdit: Learning a Unified Editing Space for Open-Domain Image Editing," 
+                        IEEE/CVF Conferences on Computer Vision and Pattern Recognition (CVPR), June 2022.</li>
+                    <li>Shaofei Cai, Liang Li, Xinzhen Han, Jiebo Luo, Zheng-Jun Zha, Qingming Huang, 
+                        "Automatic Relation-aware Graph Network Proliferation," 
+                        IEEE/CVF Conferences on Computer Vision and Pattern Recognition (CVPR), June 2022.</li>
+                </ul>
+            </div>
+
+            <div id="Machine Learning" class="tabcontent">
+                <h3>Machine Learning</h3>
+            </div>
+
+            <div id="Social Media Data Mining" class="tabcontent">
+                <h3>Web &amp; Social Media Data Mining</h3>
+            </div>
+
+            <div id="Biomedical Analytics" class="tabcontent">
+                <h3>Biomedical Analytics &amp; Health Informatics</h3>
+            </div>
+
+            <div id="Human Computer Interaction" class="tabcontent">
+                <h3>Human Computer Interaction</h3>
+            </div>
+
+            <div id="Pervasative Computing" class="tabcontent">
+                <h3>Mobile &amp; Pervasive Computing</h3>
+            </div>
+
         </main>);
     }
 }

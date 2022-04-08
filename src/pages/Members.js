@@ -18,6 +18,7 @@ class Members extends React.Component{
                     <meta name="description" content={DESC}/>
                     <meta name="theme-color" content={Config.THEME_COLOR} />
                 </Helmet>
+                
                 {/* Put everything into a new <div></div> attribute*/}
                 <section className="introduction">
                 <h3>Visiting Researchers</h3>
