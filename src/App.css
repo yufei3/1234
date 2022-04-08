@@ -114,10 +114,28 @@ a{
       "pic intro"; 
 }
 
+.members-intro{
+	text-align: center;
+}
+
 .pic { 
 	grid-area: pic;
 	padding-left: 30px;
 	padding-top: 30px;
+}
+.student-main {
+	text-align: center;
+	width:800px;
+	height:600px;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+
+.student-pic-gallary {
+	margin:10px;
+	width: 250px;
+	height:400px;
+	border:1px solid #ccc	
 }
 
 .title { 
