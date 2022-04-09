@@ -1,4 +1,4 @@
-*{border: 1px solid pink}
+/*{border: 1px solid pink}*/
 
 body{
 	font-family: 'Open Sans', 'Lato', 'PT Sans', sans-serif;
@@ -129,16 +129,12 @@ a{
 	height:600px;
 	width:1200px;
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
 	float:left;
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 	object-fit: contain;
 }
 
-.student-pic-gallary {
-	margin:10px;
-	width: 250px;
-	height:400px;
+
 .student-pic-gallary { 
 	margin:20px;																																						
 	width: 150px;

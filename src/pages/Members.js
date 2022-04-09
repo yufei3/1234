@@ -31,21 +31,7 @@ class Members extends React.Component{
                     <h3>PhD Students</h3>
                 </section>
                 <section className="student-main">
-                    <div className="student-pic-gallary">
-                        <img src="https://s2.loli.net/2022/04/02/frMQC3R718pXBPv.jpg" alt=""/>
-                        <p><strong>Yuncheng Li</strong></p>
-                        <p>Snapchat Research 2017-2019</p>
-                        <p>Google Brain since 2019</p>
-                    </div>
-                    <div className="student-pic-gallary">
-                        <img src="https://s2.loli.net/2022/04/02/frMQC3R718pXBPv.jpg" alt=""/>
-                        <p><strong>Quanzeng You</strong></p>
-                        <p>Microsoft Research AI since 2017</p>
-                    </div>
-                    <div className="student-pic-gallary">
-                        <img src="http://www.cs.rochester.edu/u/thu" alt=""/>
-                        <p><strong>Tianrun Hu</strong></p>
-                        <p>College of William Mary</p>
+                    
                     <div class="student-pic-gallery">
                         <img src="https://s2.loli.net/2022/04/02/frMQC3R718pXBPv.jpg" alt="" width="140" height="170" />
                         <div class="student-gallery-desc">
