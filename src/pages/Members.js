@@ -14,11 +14,12 @@ class Members extends React.Component{
         <div>
             <main>
                 <Helmet>
-                <title>{TITLE}</title>
-                <link rel="canonical" href={CANONICAL} />
-                <meta name="description" content={DESC}/>
-                <meta name="theme-color" content={Config.THEME_COLOR} />
+                    <title>{TITLE}</title>
+                    <link rel="canonical" href={CANONICAL} />
+                    <meta name="description" content={DESC}/>
+                    <meta name="theme-color" content={Config.THEME_COLOR} />
                 </Helmet>
+                
                 {/* Put everything into a new <div></div> attribute*/}
                 <section className="introduction">
                 <h3>Visiting Researchers</h3>
@@ -164,8 +165,6 @@ class Members extends React.Component{
                 </section>
 
             </main>
-            
-
         </div>
         );
     }
