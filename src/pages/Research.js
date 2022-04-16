@@ -12,7 +12,6 @@ class Research extends React.Component{
     render() {
         return (        
         <main>
-
             <Helmet>
                 <title>{TITLE}</title>
                 <link rel="canonical" href={CANONICAL} />
@@ -21,17 +20,17 @@ class Research extends React.Component{
             </Helmet>
 
             {/* Tab links */}
-            <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'Computer Vision')">Computer Vision, NLP &amp; Media Understanding</button>
-                <button class="tablinks" onclick="openCity(event, 'Machine Learning')">Machine Learning</button>
-                <button class="tablinks" onclick="openCity(event, 'Social Media Data Mining')">Web &amp; Social Media Data Mining</button>
-                <button class="tablinks" onclick="openCity(event, 'Biomedical Analytics')">Biomedical Analytics &amp; Health Informatics</button>
-                <button class="tablinks" onclick="openCity(event, 'Human Computer Interaction')">Human Computer Interaction</button>
-                <button class="tablinks" onclick="openCity(event, 'Pervasative Computing')">Mobile &amp; Pervasive Computing</button>
+            <div className="tab">
+                <button className="tablink" onclick="openPage(event, 'computer-vision')" id="defaultOpen">Computer Vision, NLP &amp; Media Understanding</button>
+                <button className="tablink" onclick="openPage(event, 'machine-learning')">Machine Learning</button>
+                <button className="tablink" onclick="openPage(event, 'social-media-data-mining')">Web &amp; Social Media Data Mining</button>
+                <button className="tablink" onclick="openPage(event, 'biomedical-analytics')">Biomedical Analytics &amp; Health Informatics</button>
+                <button className="tablink" onclick="openPage(event, 'human-computer-interaction')">Human Computer Interaction</button>
+                <button className="tablink" onclick="openPage(event, 'pervasative-computing')">Mobile &amp; Pervasive Computing</button>
             </div>
 
             {/* Tab content */}
-            <div id="Computer Vision" class="tabcontent">
+            <div id="computer-vision" className="tabcontent">
                 <h3>Computer Vision, NLP &amp; Media Understanding</h3>
                 <h4>2022</h4>
                 <ul>
@@ -61,23 +60,23 @@ class Research extends React.Component{
                 </ul>
             </div>
 
-            <div id="Machine Learning" class="tabcontent">
+            <div id="machine-learning" className="tabcontent">
                 <h3>Machine Learning</h3>
             </div>
 
-            <div id="Social Media Data Mining" class="tabcontent">
+            <div id="social-media-data-mining" className="tabcontent">
                 <h3>Web &amp; Social Media Data Mining</h3>
             </div>
 
-            <div id="Biomedical Analytics" class="tabcontent">
+            <div id="biomedical-analytics" className="tabcontent">
                 <h3>Biomedical Analytics &amp; Health Informatics</h3>
             </div>
 
-            <div id="Human Computer Interaction" class="tabcontent">
+            <div id="human-computer-interaction" className="tabcontent">
                 <h3>Human Computer Interaction</h3>
             </div>
 
-            <div id="Pervasative Computing" class="tabcontent">
+            <div id="pervasative-computing" className="tabcontent">
                 <h3>Mobile &amp; Pervasive Computing</h3>
             </div>
 
