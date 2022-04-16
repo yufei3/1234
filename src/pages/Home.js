@@ -11,7 +11,7 @@ class Home extends React.Component{
         return (
         <div>
             {/* Put everything into a new <div></div> attribute*/}
-            <div class="welcome-container">
+            <div className="welcome-container">
                 <h1>VIStA</h1>
                 <h2>Visual Intelligence &amp; Social Multimedia Analytics</h2>
             </div>
