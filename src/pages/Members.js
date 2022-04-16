@@ -6,6 +6,8 @@ const TITLE = "Members | " + Config.SITE_TITLE;
 const DESC = "This is the members page of the VIStA Research Group.";
 const CANONICAL = Config.SITE_DOMAIN + "/members";
 
+
+
 class Members extends React.Component{
     
     render() {
@@ -20,7 +22,7 @@ class Members extends React.Component{
                     <meta name="theme-color" content={Config.THEME_COLOR} />
                 </Helmet>
                 
-                {/* Put everything into a new <div></div> attribute*/}
+                
                 <section className="introduction">
                 <h3>Visiting Researchers</h3>
                     <img src="https://s2.loli.net/2022/04/02/nQUSrP31wO4v5EH.jpg" class="w3-display-middle w3-large" alt="" />
@@ -73,6 +75,13 @@ class Members extends React.Component{
                         <div class="student-gallery-desc">
                             <p><strong>Yang Feng</strong></p>
                             <p>Google Cloud</p>
+                        </div>
+                    </div>
+                    <div class="student-pic-gallery">
+                        <img src="https://s2.loli.net/2022/04/09/9I8kEoMWHjCvmF7.jpg" alt="" width="140" height="170"/>
+                        <div class="student-gallery-desc">
+                            <p><strong>Haofu Liao</strong></p>
+                            <p>Amazon - AWS</p>
                         </div>
                     </div>
                     <div class="student-pic-gallery">
@@ -148,7 +157,7 @@ class Members extends React.Component{
                         </div>
                     </div>
                     
-                </section>
+                </section> 
 
             </main>
         </div>
