@@ -514,9 +514,50 @@ a{
 	border-top: none;
 } */
 
-.student_collapsible{
-	
+.other_student_container{
+	display: flex;
+	padding-top: 50px;
+	justify-content: center;
 }
+.student_collapsible{
+	max-width: 90%;
+	overflow: hidden;
+	font-weight: 500;
+}
+
+.active, .student_collapsible:hover{
+	background-color: #ccc;
+} 
+
+.student_collapsible_head{
+	position:relative;
+	font-weight:600;
+	background: #ddd;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
+	color: #1c1c6b;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.student_collapsible label:after{
+	content: "";
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	width: 18px;
+	height: 18px;
+	background: url(arrow.svg) no-repeat 0 0;
+}
+
+.student_collapsible_content{
+	max-height: 1px;
+	overflow: hidden;
+	border-radius: 4px;
+	line-height: 1.4;
+}
+
 
 
 

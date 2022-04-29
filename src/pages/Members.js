@@ -213,10 +213,17 @@ class Members extends React.Component{
                                     <p><strong>Hanjia Lyu</strong></p>
                                     <button>View</button>
                                 </div>
-                            </div>
-                       
+                            </div>   
+                </section>
+                <section class="other_student_container">
+                    <div class="student_collapsible">
+                        <label for="student_collapsible_head">MS Students</label>
+                        <div class="student_collapsible_text">
+                            <p>students</p>
+                        </div>
+                    </div>
+                    
                 </section> 
-
             </main>
         </div>
         );
