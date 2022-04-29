@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-*{
-	border: 1px solid pink;
-	box-sizing: border-box;
+*{ border: 1px solid pink;
+    box-sizing: border-box;
 }
-=======
-/*{border: 1px solid pink}*/
->>>>>>> 0209d89529d79a16bd5fce246e2a407a50825120
 
 body{
 	font-family: 'Open Sans', 'Lato', 'PT Sans', sans-serif;
@@ -481,6 +476,14 @@ a{
 }
   
 /* Style the buttons that are used to open the tab content */
+
+.tab {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
 .tab button {
 	background-color: inherit;
 	float: left;
@@ -503,8 +506,9 @@ a{
   
 /* Style the tab content */
 #allContent{
-	transition: margin-left .5s;
-  	padding: 20px;
+	margin: 50px 100px 50px 300px;
+	width: 90%;
+	max-width: 960px;
 }
 
 /* .tabcontent {
@@ -514,6 +518,8 @@ a{
 	border-top: none;
 } */
 
+
+/* Members Page Format */
 .other_student_container{
 	display: flex;
 	padding-top: 50px;
@@ -548,7 +554,6 @@ a{
 	top: 20px;
 	width: 18px;
 	height: 18px;
-	background: url(arrow.svg) no-repeat 0 0;
 }
 
 .student_collapsible_content{

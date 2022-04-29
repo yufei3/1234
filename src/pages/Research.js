@@ -8,22 +8,38 @@ const CANONICAL = Config.SITE_DOMAIN + "/research";
 
 
 class Research extends React.Component{
+
+   /* constructor(props){
+        super(props);
+        this.state = {openPage: "computer-vision"}
+        // document.getElementById("defaultOpen").click();
+      } */
     
     render() {
         
-        const openPage = (pageName) => {
+        const openPage = (pageName, e) => {
+            var i, tabcontent, tablinks;
+
             // Hide all elements with class="tabcontent" by default */
-            var i, tabcontent;
             tabcontent = document.getElementsByClassName("tabcontent");
             for (i = 0; i < tabcontent.length; i++) {
                 tabcontent[i].style.display = "none";
             }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
             // Show the specific tab content
-            document.getElementById(pageName).style.display = "block";            
+            document.getElementById(pageName).style.display = "block"; 
+            e.currentTarget.className += " active";           
         }
 
-        return (        
+        return (       
+             
         <main>
+            
             <Helmet>
                 <title>{TITLE}</title>
                 <link rel="canonical" href={CANONICAL} />
@@ -33,12 +49,12 @@ class Research extends React.Component{
 
             {/* Tab links */}
             <div className="tab">
-                <button className="tablink" onClick={() => openPage("computer-vision")}>Computer Vision, NLP &amp; Media Understanding</button>
-                <button className="tablink" onClick={() => openPage("machine-learning")}>Machine Learning</button>
-                <button className="tablink" onClick={() => openPage("social-media-data-mining")}>Web &amp; Social Media Data Mining</button>
-                <button className="tablink" onClick={() => openPage("biomedical-analytics")}>Biomedical Analytics &amp; Health Informatics</button>
-                <button className="tablink" onClick={() => openPage("human-computer-interaction")}>Human Computer Interaction</button>
-                <button className="tablink" onClick={() => openPage("pervasative-computing")}>Mobile &amp; Pervasive Computing</button>
+                <button className="tablink" onClick={(e) => openPage("computer-vision", e)} id="defaultOpen">Computer Vision, NLP &amp; Media Understanding</button>
+                <button className="tablink" onClick={(e) => openPage("machine-learning", e)}>Machine Learning</button>
+                <button className="tablink" onClick={(e) => openPage("social-media-data-mining", e)}>Web &amp; Social Media Data Mining</button>
+                <button className="tablink" onClick={(e) => openPage("biomedical-analytics", e)}>Biomedical Analytics &amp; Health Informatics</button>
+                <button className="tablink" onClick={(e) => openPage("human-computer-interaction", e)}>Human Computer Interaction</button>
+                <button className="tablink" onClick={(e) => openPage("pervasative-computing", e)}>Mobile &amp; Pervasive Computing</button>
             </div>
 
             {/* Tab content */}
