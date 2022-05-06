@@ -9,13 +9,23 @@ const CANONICAL = Config.SITE_DOMAIN + "/research";
 
 class Research extends React.Component{
 
-   /* constructor(props){
+    /* constructor(props){
         super(props);
-        this.state = {openPage: "computer-vision"}
+        this.state = {pageName: ""}
+        this.callDefault = this.callDefault.bind(this);
         // document.getElementById("defaultOpen").click();
+      }
+
+      callDefault(e) {
+        this.setState({
+            pageName: "computer-vision"
+          });
       } */
-    
+
     render() {
+
+        //document.getElementById("computer-vision").style.display = "block";
+        //document.getElementById("machine-learning").style.display = "none";
         
         const openPage = (pageName, e) => {
             var i, tabcontent, tablinks;
