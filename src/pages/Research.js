@@ -9,23 +9,7 @@ const CANONICAL = Config.SITE_DOMAIN + "/research";
 
 class Research extends React.Component{
 
-    /* constructor(props){
-        super(props);
-        this.state = {pageName: ""}
-        this.callDefault = this.callDefault.bind(this);
-        // document.getElementById("defaultOpen").click();
-      }
-
-      callDefault(e) {
-        this.setState({
-            pageName: "computer-vision"
-          });
-      } */
-
     render() {
-
-        //document.getElementById("computer-vision").style.display = "block";
-        //document.getElementById("machine-learning").style.display = "none";
         
         const openPage = (pageName, e) => {
             var i, tabcontent, tablinks;
@@ -59,7 +43,7 @@ class Research extends React.Component{
 
             {/* Tab links */}
             <div className="tab">
-                <button className="tablink" onClick={(e) => openPage("computer-vision", e)} id="defaultOpen">Computer Vision, NLP &amp; Media Understanding</button>
+                <button className="tablink active" onClick={(e) => openPage("computer-vision", e)}>Computer Vision, NLP &amp; Media Understanding</button>
                 <button className="tablink" onClick={(e) => openPage("machine-learning", e)}>Machine Learning</button>
                 <button className="tablink" onClick={(e) => openPage("social-media-data-mining", e)}>Web &amp; Social Media Data Mining</button>
                 <button className="tablink" onClick={(e) => openPage("biomedical-analytics", e)}>Biomedical Analytics &amp; Health Informatics</button>

@@ -511,12 +511,38 @@ a{
 	max-width: 960px;
 }
 
+/* Set the default page when 'Research' is clicked */
+#coputure-vision{
+	display: block;
+}
+
+#machine-learning{
+	display: none;
+}
+
+#social-media-data-mining{
+	display: none;
+}
+
+#biomedical-analytics{
+	display: none;
+}
+
+#human-computer-interaction{
+	display: none;
+}
+
+#pervasative-computing{
+	display: none;
+}
+
 /* .tabcontent {
 	display: none;
 	padding: 6px 12px;
 	border: 1px solid #ccc;
 	border-top: none;
 } */
+
 
 
 /* Members Page Format */
