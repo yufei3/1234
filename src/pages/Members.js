@@ -11,6 +11,11 @@ const CANONICAL = Config.SITE_DOMAIN + "/members";
 class Members extends React.Component{
     
     render() {
+
+        function myFunction(id){
+            var x = document.getElementById(id);
+            if(x.className.indexOf())
+        }
         return (
         
         <div>
@@ -215,15 +220,16 @@ class Members extends React.Component{
                                 </div>
                             </div>   
                 </section>
-                <section class="other_student_container">
-                    <div class="student_collapsible">
-                        <label for="student_collapsible_head">MS Students</label>
-                        <div class="student_collapsible_text">
-                            <p>students</p>
-                        </div>
+                <div class="other_student_container">
+                    <button onclick="myFunction('title1')" class="accordion">Section1</button>
+                    <div id="title1" class="accordion-content">
+                        <p>section1......s</p>
                     </div>
-                    
-                </section> 
+                    <button onclick="myFunction('title2')" class="accordion">Section2</button>
+                    <div id="title2" class="accordion-content">
+                        <p>section2......s</p>
+                    </div>
+                </div>
             </main>
         </div>
         );
