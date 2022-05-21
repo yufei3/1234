@@ -12,25 +12,6 @@ class Members extends React.Component{
     
     render() {
 
-        const openPage = (pageName, e) => {
-            var i, tabcontent, tablinks;
-
-            // Hide all elements with class="tabcontent" by default */
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            // Show the specific tab content
-            document.getElementById(pageName).style.display = "block"; 
-            e.currentTarget.className += " active";           
-        }
-
         const openTab = (year, e) => {
             var panel;
 
