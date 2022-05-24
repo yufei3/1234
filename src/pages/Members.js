@@ -39,11 +39,26 @@ class Members extends React.Component{
                 
                 <section className="introduction">
                 <h3>Visiting Researchers</h3>
-                    <img src="https://s2.loli.net/2022/04/02/nQUSrP31wO4v5EH.jpg" class="w3-display-middle w3-large" alt="" />
-                    <p><strong>Prof. Jinsong Su</strong></p>
-                    <p>Xiamen University</p>
                 </section>
-                <section className="members-intro">
+                <div className="scholar-background">
+                    <div className="scholar-grid">
+                        <div className="grid-left">
+                            <img src="https://s2.loli.net/2022/04/02/nQUSrP31wO4v5EH.jpg" alt="" />
+                            <p><strong>Prof. Jinsong Su</strong></p>
+                            <p>Xiamen University</p>
+                        </div>
+                        <div className="grid-right">
+                            <p>Associate Professor in School of Informatics, Xiamen University</p>
+                            <p>Prof. Su received his PhD in Computer Science from the Institute of Computing Technology, China. His research areas include natural language processing and social computing. He published more than 60 research papers recently of which many were in famous conferences and journals such as TPAMI/AI/ACL/AAAI/IJCAI/EMNLP.
+                            </p>
+                            <p></p>
+                            <a href="https://cdmc.xmu.edu.cn/en/info/1010/1008.htm" target="_blank">View</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <section className="introduction">
                     <h3>PhD Students</h3>
                 </section>
 
@@ -57,7 +72,7 @@ class Members extends React.Component{
                                     <p><strong>Yuncheng Li</strong></p>
                                     <p>Snapchat Research 2017-2019</p>
                                     <p>Google Brain since 2019</p>
-                                    <button>View</button>
+                                    <a href="https://scholar.google.com/citations?user=2LwbQtMAAAAJ&hl=en" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -67,7 +82,8 @@ class Members extends React.Component{
                                 <div class="card_desc">
                                     <p><strong>Quanzeng You</strong></p>
                                     <p>Microsoft Research AI since 2017</p>
-                                    <button>View</button>
+                                    <a href="https://qzyou.github.io/" target="_blank">View</a>
+                                    <input type="button" onClick="https://www.w3.org/Style/Examples/007/center.en.html"></input>
                                 </div>
                             </div>
                             <div class="card_item">
