@@ -378,66 +378,476 @@ class Research extends React.Component{
                     <button className="accordion" onClick={(e) => openTab("cv-2019", e)}>2019</button>
                     <div id="cv-2019" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Jianxin Lin, Yingce Xia, Sen Liu, Tao Qin, Zhibo Chen, Jiebo
+                                Luo, "Exploring Explicit Domain Supervision for Latent Space
+                                Disentanglement in Unpaired Image-to-Image Translation," 
+                                <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>,
+                                in press.
+                            </li>
+                            <li>Heliang Zheng, Jianlong Fu, Zheng-Jun Zha, Jiebo Luo,
+                                "Learning Deep Bilinear Transformation for Fine-grained Image
+                                Representation," <i>Neural Information Processing Systems</i>
+                                (NeurlPS), Vancouver, Canada, December 2019.</li>
+                            <li>Jaili Zeng, Yang Liu, Jinsong Su, Yubing Ge, Yaojie Lu,
+                                Yongjing Yin and Jiebo Luo, "Iterative Dual Domain Adaptation
+                                for Neural Machine Translation," <i>Conference on Empirical
+                                Methods in Natural Language Processing</i> (EMNLP), Hong Kong,
+                                November 2019.
+                            </li>
+                            <li>Biao Zhang, Deyi Xiong, Jinsong Su, and Jiebo Luo,
+                                "Future-Aware Knowledge Distillation for Neural Machine
+                                Translation," <i>IEEE Transactions on Audio, Speech and
+                                Language Processing</i>, in press.
+                            </li>
+                            <li>Fuchen Long, Ting Yao, Xinwei Tian, Tao Mei, Jiebo Luo,
+                                "Coarse-to-Fine Localization of Temporal Action Proposals," <i>IEEE Transactions on Multimedia</i>, in press.</li>
+                            <li>Rongrong Ji, Ke Li, Feng Guo, Xiaoshuai Sun, Yan Wang, Feiyue
+                                Huang, Jiebo Luo, Gary Huang, "Semi-Supervised Adversarial
+                                Monocular Depth Estimation," <i>IEEE Transactions on Pattern
+                                Analysis and Machine Intelligence</i>, in press.</li>
+                            <li>Yang Cong, Baojie Fan, Dongdong Hou, Huijie Fan, Kaizhou Liu,
+                                Jiebo Luo, "Novel Event Analysis for Human-Machine Collaborative
+                                Underwater Exploration," <i>Pattern Recognition</i>, in press.</li>
+                            <li>Zhengyuan Yang, Boqing Gong, Liwei Wang, Wenbing Huang, Dong
+                                Yu, Jiebo Luo, "A Fast and Accurate One-Stage Approach to Visual
+                                Grounding," <i> International Conference on Computer Vision </i>(ICCV), Seoul, South Korea, October 2019. (<b>oral presentation</b>)</li>
+                            <li>Tianlang Chen, Zhaowen Wang, Ning Xu, Hailin Jin, Jiebo Luo.
+                                "Large-scale Tag-based Font Retrieval with Generative Feature
+                                Learning," <i>International Conference on Computer Vision</i>
+                                (ICCV), Seoul, South Korea, October 2019. 
+                            </li>
+                            <li>Jingyi Hou, Xinxiao Wu, Wentian Zhao, Jiebo Luo, "Joint Syntax
+                                Representation Learning and Visual Cues Translation for Video
+                                Captioning," <i>International Conference on Computer Vision</i>
+                                (ICCV), Seoul, South Korea, October 2019. 
+                            </li>
+                            <li>Songyang Zhang, Jinsong Su, Jiebo Luo, "Exploiting Temporal
+                                Relationships in Video Moment Localization with natural
+                                Language," <i>ACM Multimedia Conference</i>, Nice, France,
+                                October 2019. 
+                            </li>
+                            <li>Jialong Tang, Ziyao Lu, Jinsong Su, Yubin Ge, Linfeng Song, Le
+                                Sun, and Jiebo Luo, "Progressive Self-Supervised Attention
+                                Learning for Aspect-Level Sentiment Analysis,"<i> Annual Meeting
+                                of the Association for Computational Linguistics (ACL), </i>Florence, Italy, July 2019.
+                            </li>
+                            <li>Yongjing Yin, Linfeng Song, Jinsong Su, Jiali Zeng, Chulun
+                                Zhou, and Jiebo Luo, "Graph-based Neural Sentence Ordering," <i>International Joint Conference on Artificial Intelligence (IJCAI)</i>,
+                                Macau, July 2019.</li>
+                            <li>Heliang Zheng, Zheng-Jun Zha, Jiebo Luo, "Learning Rich Part
+                                Hierarchies with Progressive Attention Networks for Fine-Grained
+                                Image Recognition," <i>IEEE Transactions on Image Processing</i>,
+                                in press. 
+                            </li>
+                            <li>Yang Feng, Lin Ma, Wei Liu, Jiebo Luo, "Unsupervised Image Captioning," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition </i>(CVPR), Long Beach, CA, June 2019.
+                                <a href="https://arxiv.org/abs/1811.10787"> [PDF]</a> <a href="https://github.com/fengyang0317/unsupervised_captioning">[Code]</a>
+                            </li>
+                            <li>Yang Feng, Lin Ma, Wei Liu, Jiebo Luo, "Spatio-temporal Video Re-localization by Warp LSTM," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition </i>(CVPR), Long Beach, CA, June 2019.
+                                <a href="https://arxiv.org/abs/1905.03922"> [PDF]</a> <a href="https://github.com/fengyang0317/STVR">[Code]</a>
+                            </li>
+                            <li> Wei Xiong, Jiahui Yu, Zhe Lin, Jimei Yang, Xin Lu, Connelly Barnes, Jiebo Luo, "Foreground-aware Image Inpainting," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition </i>(CVPR), Long Beach, CA, June 2019.
+                                <a href="https://wxiong.me/foreground/"> [Project Page]</a>
+                            </li>
+                            <li>Mengshi Qi*, Weijian Li*, Zhengyuan Yang, Yunhong Wang, Jiebo
+                                Luo, "Attentive Relational Networks for Mapping Images to Scene
+                                Graphs," <i>IEEE Conference on Computer Vision and Pattern
+                                Recognition (CVPR)</i>, Long Beach, CA, June 2019.</li>
+                            <li>Heliang Zheng, Jianlong Fu, Zheng-Jun Zha, Jiebo Luo, "Looking
+                                for the Devil in the Details: Learning Trilinear Attention
+                                Sampling Network for Fine-grained Image Recognition," <i>IEEE
+                                Conference on Computer Vision and Pattern Recognition (CVPR)</i>,
+                                Long Beach, CA, June 2019.</li>
+                            <li> Fuchen Long, Ting Yao, Xinmei Tian, Jiebo Luo, Tao Mei,
+                                "Gaussian Temporal Awareness Networks for Action Localization",
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition
+                                (CVPR)</i>, Long Beach, CA, June 2019. (<b>oral presentation</b>)</li>
+                            <li>Wei-An Lin*, Haofu Liao*, Cheng Peng, Xiaohang Sun, Jingdan
+                                Zhang, Jiebo Luo, Rama Chellappa, S. Kevin Zhou, "DuDoNet: Dual
+                                Domain Network for CT Metal Artifact Reduction," <i>IEEE
+                                Conference on Computer Vision and Pattern Recognition (CVPR),</i>
+                                Long Beach, CA, June 2019.</li>
+                            <li>Haofu Liao, Wei-An Lin, Jiarui Zhang, Jingdan Zhang, Jiebo
+                                Luo, S. Kevin Zhou, "Multiview 2D/3D Rigid Registration via a
+                                Point-Of-Interest Network for Tracking and Triangulation," IEEE
+                                Conference on Computer Vision and Pattern Recognition (CVPR),
+                                Long Beach, CA, June 2019.
+                            </li>
+                            <li>Jingyuan Chen, Lin Ma, Wei Liu, Jiebo Luo, "Localizing Natural
+                                Language in Videos," <i>The 33rd AAAI Conference on Artificial
+                                Intelligence (AAAI)</i>, Honolulu, HI, February 2019.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("cv-2018", e)}>2018</button>
                     <div id="cv-2018" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Qing Li, Jianlong Fu, Dongfei Yu, Tao Mei, Jiebo Luo,
+                                "Tell-and-Answer: Towards Explainable Visual Question Answering
+                                using Attributes and Captions," <i>Conference on Empirical
+                                Methods in Natural Language Processing (EMNLP)</i>, Brussels,
+                                Belgium, November 2018. <strong>(oral presentation)</strong>
+                            </li>
+                            <li>Mingkun Yang, Yongchao Xu, Xiang Bai, Jiebo Luo, "Integrating
+                                Scene Text and Visual Appearance for Fine-Grained Image
+                                Classification," <i>IEEE Access</i>, in IEEE Xplore.
+                            </li>
+                            <li>Zhengyuan Yang, Yuncheng Li, Jianchao Yang, and Jiebo Luo,
+                                "Action Recognition with Spatio-Temporal Visual Attention on
+                                Skeleton Image Sequences," <i>IEEE Transactions on Circuits and
+                                Systems for Video Technology</i>, in IEEE Xplore.</li>
+                            <li>Wenbin Li, Jing Huo, Yinghuan Shi, Yang Guo, Lei Wang, Jiebo
+                                Luo, "A Joint Local and Global Deep Learning Method for
+                                Caricature Recognition," <i>Asian Conference on Computer Vision</i>
+                                (ACCV), Perth, Australia, December 2018.</li>
+                            <li>Haofu Liao, Gareth Funka-Lea, Yefeng Zheng, Kevin Zhou, Jiebo
+                                Luo, "Face Completion with Semantic Knowledge and Collaborative
+                                Adversarial Learning," <i>Asian Conference on Computer Vision</i>
+                                (ACCV), Perth, Australia, December 2018.</li>
+                            <li>Tianlang Chen, Zhongping Zhang, Quanzeng You, Chen Fang,
+                                Zhaowen Wang, Hailin Jin, Jiebo Luo, "Factual or Emotional:
+                                Stylized Image Captioning with Adaptive Learning and Attention,"
+                                <i>European Conference on Computer Vision (ECCV)</i>, Munich,
+                                Germany, September 2018.
+                            </li>
+                            <li>Yang Feng, Lin Ma, Wei Liu, Tong Zhang, Jiebo Luo, "Video Re-localization via 
+                                Cross Gated Bilinear Matching," <i>European Conference on Computer Vision (ECCV)</i>, 
+                                Munich, Germany, September 2018. <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Yang_Feng_Video_Re-localization_via_ECCV_2018_paper.pdf"> [PDF]</a> 
+                                <a href="https://github.com/fengyang0317/video_reloc">[Code]</a>
+                            </li>
+                            <li>Qing Li, Qingyi Tao, Shafiq Joty, Jianfei Cai, Jiebo Luo,
+                                "VQA-E: Explaining, Elaborating, and Enhancing Your Answers for
+                                Visual Questions," <i>European Conference on Computer Vision
+                                (ECCV)</i>, Munich, Germany, September 2018.</li>
+                            <li>Mengshi Qi, Jie Qin, Annan Li, Yunhong Wang, Jiebo Luo, Luc
+                                Van Gool, "stagNet: An Attentive Semantic RNN for Group Activity
+                                Recognition," <i>European Conference on Computer Vision (ECCV)</i>,
+                                Munich, Germany, September 2018.
+                            </li>
+                            <li>Fuchen Long, Ting Yao, Tao Mei, Jiebo Luo, "Deep Domain
+                                Adaptation Hashing with Adversarial Learning," <i>ACM SIGIR
+                                Conference on Research and Development in Information
+                                Retrieval (SIGIR)</i>, Ann Arbor, MI, July 2018. <strong>(Oral
+                                presentation)</strong>
+                            </li>
+                            <li>Xiaobai Liu, Qian Xu, Jingjie Yang, Jacob Thalman, Shuicheng
+                                Yan, and Jiebo Luo, "Learning Multi-Instance Deep Ranking and
+                                Regression Network for Visual House Appraisal," <i>IEEE
+                                Transactions on Knowledge and Data Engineering</i> (TKDE)
+                                30(8): 1496-1506, 2018.
+                            </li>
+                            <li>Zhengyuan Yang, Yixuan Zhang, Jerry Yu, Junjie Cai, Jiebo Luo,
+                                "End-to-end Multi-Modal Multi-Task Vehicle Control for
+                                Self-Driving Cars with Visual Perception,"<i> IAPR/IEEE
+                                International Conference on Pattern Recognition (ICPR)</i>,
+                                Beijing, China, August 2018. <strong>(Best Industrial Related Paper)</strong> <a
+                                href="https://arxiv.org/abs/1801.06734.pdf"> [PDF]</a> <a
+                                href="https://youtu.be/7QGI_tmwZhw"> [Demo]</a>
+                            </li>
+                            <li>Zhengyuan Yang, Yuncheng Li, Jianchao Yang, Jiebo Luo, "Action Recognition 
+                                with Visual Attention on Skeleton Images," <i>IAPR/IEEE International Conference 
+                                on Pattern Recognition (ICPR)</i>, Beijing, China, August 2018. <strong>(Oral presentation）</strong>
+                            </li>
+                            <li>Zhongping Zhang, Yixuan Zhang, Zheng Zhou, Jiebo Luo, "Boundary-based Image Forgery 
+                                Detection by Fast Shallow CNN," <i>IAPR/IEEE International Conference 
+                                on Pattern Recognition (ICPR)</i>, Beijing, China, August 2018.
+                            </li>
+                            <li>Viet-Duy Nguyen, Minh Tran, Jiebo Luo, "Are French Really That Different? Recognizing Europeans 
+                                from Faces Using Data-Driven Learning," <i>IAPR/IEEE International Conference 
+                                on Pattern Recognition (ICPR)</i>, Beijing, China, August 2018.
+                            </li>
+                            <li>Quanzeng You, Zhengyou Zhang, Jiebo Luo, "End-to-end Convolutional Semantic Embeddings," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 
+                                Salt Lake City, UT, June 2018.
+                            </li>
+                            <li>Wei Xiong, Wenhan Luo, Lin Ma, Wei Liu, Jiebo Luo, "Learning to Generate Time-Lapse 
+                                Videos Using Multi-Stage Dynamic Generative Adversarial Networks," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 
+                                Salt Lake City, UT, June 2018.
+                            </li>
+                            <li>Danna Gurari, Qing Li, Abigale Stangl, Anhong Guo, Chi Lin, Kristen Grauman, 
+                                Jiebo Luo, Jeffery Bigham, "VizWiz Grand Challenge: Answering Visual Questions 
+                                from Blind People," <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 
+                                Salt Lake City, UT, June 2018. <strong>(spotlight presentation)</strong>
+                            </li>
+                            <li>Gui-Song Xia, Xiang Bai, Jian Ding, Serge Belongie, Jiebo Luo, Mihai Datcu, Marcello Pelillo, 
+                                Liangpei Zhang, "DOTA: A Large-scale Dataset for Object Detection in Aerial Images," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 
+                                Salt Lake City, UT, June 2018.
+                            </li>
+                            <li>Xinpeng Chen, Jingyuan Chen, Lin Ma, Jian Yao, Wei Liu, Jiebo Luo and Tong Zhang, 
+                                "Fine-grained Video Attractiveness Prediction Using Multimodal Deep Learning on a
+                                 Large Real-world Dataset," <i>The Web Conference (WWW)</i>, Lyon, France, April 2018.
+                            </li>
+                            <li>Yu Wang, Haofu Liao, Yang Feng, Xiangyang Xu, Jiebo Luo, "Do They All Look the Same? Deciphering Chinese, 
+                                Japanese and Koreans by Fine-Grained Deep Learning," <i>IEEE International Conference on 
+                                    Multimedia Information Processing and Retrieval</i>, Miami, FL, April 2018.
+                            </li>
+                            <li>Tianlang Chen, Chenliang Xu, Jiebo Luo, "Improving Text-based Person Search by Spatial Matching and 
+                                Adaptive Threshold," <i>Winter Conference on Computer Vision (WACV)</i>, Lake Tahoe, NV, March 2018.
+                            </li>
+                            <li>Xitong Yang, Jiebo Luo, "Towards Perceptual Image Dehazing by Physics-based Disentanglement and Adversarial 
+                                Training", <i>The 32nd AAAI Conference on Artificial Intelligence (AAAI)</i>, New Orleans, LA, February 2018.
+                            </li>
+                            <li>Jingyi Hou, Xinxiao Wu, Jiebo Luo, "Unsupervised Deep Learning of Mid-Level Video Representation for 
+                                Action Recognition," <i>The 32nd AAAI Conference on Artificial Intelligence (AAAI)</i>, 
+                                New Orleans, LA, February 2018.
+                            </li>
+                            <li>Yu Wang, Haofu Liao, Yang Feng, Xiangyang Xu, Jiebo Luo, "Do They All Look the Same? Deciphering Chinese, 
+                                Japanese and Koreans by Fine-Grained Deep Learning," <i>IEEE International Conference on 
+                                Multimedia Information Processing and Retrieval</i>, Miami, FL, April 2018.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Jiebo Luo, "User Attribute Discovery with Missing Labels," <i>Pattern Recognition</i> 
+                            73: 33-46, 2018. 
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("cv-2017", e)}>2017</button>
                     <div id="cv-2017" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Heliang Zheng, Jianlong Fu, Tao Mei, and Jiebo Luo, "Learning
+                                Multi-Attention Convolutional Neural Network for Fine-Grained
+                                Image Recognition," <i>International Conference on Computer Vision </i>(ICCV), Venice, Italy,
+                                October 2017. <strong>(oral presentation)</strong>
+                            </li>
+                            <li>Xiangyang Xu, Yuncheng Li, Gangshan Wu and Jiebo Luo,
+                                "Multi-modal Deep Feature Learning for RGB-D Object Detection,"
+                                <i>Pattern Recognition</i> 72:
+                                300-313, 2017.
+                            </li>
+                            <li>Zhengyuan Yang, Wendi Cross, Jiebo Luo, "Personalized pose
+                                estimation for body language understanding," <i>International Conference on Image
+                                Processing</i> (ICIP), Beijing, China, September 2017.
+                                <strong> (oral presentation)</strong>
+                            </li>
+                            <li>Honglin Zheng, Tianlang Chen, Quanzeng You, Jiebo Luo, "When
+                                Saliency Meets Sentiment: Understanding How Image Content
+                                Invokes Emotion and Sentiment," <i>International Conference on Image Processing</i>
+                                (ICIP), Beijing, China, September 2017. <strong>(oral presentation)</strong>
+                            </li>
+                            <li>Lifang Wu, Shuang Liu, Meng Jian, Jiebo Luo, Xiuzhen Zhang,
+                                Mingchao Qi, "Reducing Noisy Labels on Weakly Labeled Data for
+                                Visual Sentiment Analysis," <i>International Conference on Image Processing </i>(ICIP), Beijing, China,
+                                September 2017.
+                            </li>
+                            <li>Yuncheng Li, Liangliang Cao, Jiebo Luo, "Mining Fashion Outfit
+                                Composition Using an End-to-End Deep Learning Approach on Set
+                                Data,"<i> IEEE Trans. on Multimedia</i>, 19(8): 1946-1955(2017).
+                            </li>
+                            <li>Yanhao Zhang, Lei Qin, Rongrong Ji, Qingming Huang, Jiebo Luo,
+                                "Exploring Coherent Motion Patterns via Structured Trajectory
+                                Learning for Crowd Mood Modeling," <i>IEEE Transactions on Circuits and Systems for Video
+                                Technology,</i> 27(3): 635-648 (2017).
+                            </li>
+                            <li>Fei Wu, Zhuhao Wang, Weiming Lu, Xi Li, Yi Yang, Jiebo Luo,
+                                Yueting Zhuang, "Regularized Deep Belief Network for Image
+                                Attribute Detection," <i>IEEE Transactions on Circuits and Systems for Video Technology</i>,
+                                27(7): 1464-1477, 2017.
+                            </li>
+                            <li>Qing Li, Zhaofan Qiu, Ting Yao, Tao Mei, Yong Rui, Jiebo Luo,
+                                "Learning hierarchical video representation for action
+                                recognition," <i>International Journal of Multimedia Information Retrieval,</i> 6(1):
+                                85-98, 2017.
+                            </li>
+                            <li>Quanzeng You, Liangliang Cao, Jiebo Luo, "Image Based
+                                Appraisal of Real Estate Properties," <i>IEEE Transactions on. Multimedia</i>, in press.
+                            </li>
+                            <li>Xitong Yang,&nbsp; Sriganesh Madhvanath, Edgar A. Bernal,
+                                Palghat Ramesh, Radha Chitta, Jiebo Luo, "Deep Multimodal
+                                Representation Learning from Temporal Data," <i>IEEE Conference on Computer Vision
+                                and Pattern Recognition (CVPR)</i>,&nbsp; Hawaii, July
+                                2017.
+                            </li>
+                            <li>Marko Stamenovic, Jiebo Luo, "Machine Identification of High
+                                Impact Research through Text and Image Analysis," <i>IEEE Big Multimedia Conference</i>,
+                                Laguna Hills, CA, April 2017. 
+                            </li>
+                            <li>Quanzeng You, Hailin Jin, Jiebo Luo, "Visual Sentiment
+                                Analysis by Attending on Local Image Regions", <i>The 31st AAAI Conference on
+                                Artificial Intelligence (AAAI)</i>, San Francisco, CA,
+                                February 2017.
+                            </li>
+                            <li>Songhe Feng, Congyan Lang, Jiashi Feng and Jiebo Luo, "Human
+                                Facial Age Estimation by Cost-Sensitive Label Ranking and Trace
+                                Norm Regularization," <i>IEEE
+                                Trans. on Multimedia</i>, 19(1): 136-148, 2017.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Gan Sun, Quanzheng You, Yuncheng Li and
+                                Jiebo Luo, "Adaptive Greedy Dictionary Selection for Web Media
+                                Summarization," <i>IEEE Trans. on Image Processing</i>, 26(1): 185-195, 2017.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("cv-2016", e)}>2016</button>
                     <div id="cv-2016" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yang Feng, Yuncheng Li, Jiebo Luo, "Learning Effective Gait
+                                Features Using LSTM", <i>International Conference on Pattern Recognition (ICPR)</i>, Cancun,
+                                Mexico, December 2016.
+                            </li>
+                            <li>Iftekhar Naim, Abdullah Al Mamun, Young Chol Song, Jiebo Luo,
+                                Henry Kautz, Daniel Gildea, "Aligning Movies with Scripts by
+                                Exploiting Temporal Ordering Constraints", <i>International Conference on
+                                Pattern Recognition (ICPR)</i>, Cancun, Mexico, December
+                                2016.
+                            </li>
+                            <li>Quanzeng You, Liangliang Cao, Hailin Jin, Jiebo Luo, "Robust
+                                Visual-Textual Sentiment Analysis: When Attention meets
+                                Tree-structured Recursive Neural Networks", <i>ACM Multimedia Conference</i>,
+                                Amsterdam, The Netherlands, October 2016.
+                            </li>
+                            <li>Qing Li, Zhaofan Qiu, Ting Yao, Tao Mei, Yong Rui and Jiebo Luo, "Action Recognition 
+                                by Learning Deep Multi-Granular Spatio-Temporal Video Representation," 
+                                <i>ACM/IAPR International Conference on Multimedia Retrieval (ICMR)</i>, New York City, June 2016. 
+                                <strong> (Long paper, Best Paper Candidate)</strong>
+                            </li>
+                            <li>Quanzeng You, Hailin Jin, Zhaowen Wang, Chen Fang, Jiebo Luo, "Image Captioning with 
+                                Semantic Attention," <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 
+                                Las Vegas, NV, June 2016. <strong>(spotlight presentation)</strong>
+                            </li>
+                            <li>Yuncheng Li, Yale Song, Liangliang Cao, Joel Tetreault, Larry  Goldberg, Jiebo Luo, 
+                                "TGIF: A New Dataset and Benchmark on Animated GIF Description," <i>IEEE Conference on Computer 
+                                Vision and Pattern Recognition (CVPR)</i>, Las Vegas, NV, June 2016. <strong>(spotlight presentation)</strong>
+                            </li>
+                            <li>Tianliang Liu, Xincheng Wang, Xiubin Dai, Jiebo Luo, "Deep
+                                Recursive and Hierarchical Conditional Random Fields for Human
+                                Action Recognition," <i>IEEE
+                                Winter Conference on Applications of Computer Vision</i>
+                                (WACV), Lake Placid, NY, March 2016.
+                            </li>
+                            <li>Liang Lin, Keze Wang, Wangmeng Zuo, Meng Wang, Lei Zhang,
+                                Jiebo Luo, "Deep Reconfigurable Models with Radius-Margin Bound
+                                for 3D Human Activity Recognition,"<i> International Journal of Computer Vision</i>,
+                                available online.
+                            </li>
+                            <li>Xinyang Cai, Wengang Zhou, Houqiang Li, Jiebo Luo, Lei Wu,
+                                "Effective Kinetic Skeleton Representation for Low Latency Human
+                                Action Recognition," <i>IEEE
+                                Trans. Multimedia</i>, available online.
+                            </li>
+                            <li>Quanzeng You, Hailin Jin, Jianchao Yang, Jiebo Luo, "Cross-modality 
+                                Consistent Regression for Joint Visual-Textual Sentiment Analysis," 
+                                <i>ACM International Conference on Web Search and Data Ming (WSDM)</i>, 
+                                San Francisco, CA, February 2016. [PrePrintPDF]
+                            </li>
+                            <li>Quanzeng You, Hailin Jin, Jianchao Yang, Jiebo Luo, "Building
+                                a Large Scale Dataset for Image Emotion Recognition: The Fine
+                                Print and The Benchmark," <i>The 30th AAAI Conference on Artificial Intelligence (AAAI),</i>
+                                Phoenix, AZ, January 2016. <a
+                                href="https://drive.google.com/drive/folders/0Byh2_bxvelahRHZwS1U4RG9wMHM"> [PDF]</a> <a
+                                href="https://qzyou.github.io"> [Dataset Page]</a>
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("cv-2015", e)}>2015</button>
                     <div id="cv-2015" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yuncheng Li, Xitong Yang, Jiebo Luo, "Semantic Video Entity
+                                Linking based on Visual Content and Metadata," <i>International Conference on
+                                Computer Vision (ICCV)</i>, Santiago, Chile, December 2015.
+                                <a href="https://drive.google.com/open?id=0Byh2_bxvelahTE1COGxsZHVMY2VLekZETUtkMmM1Mi15d1pF"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Yuncheng Li, Jifei Huang, Jiebo Luo, "Using User Generated
+                                Online Photos to Estimate and Monitor Air Pollution in Major
+                                Cities," <i>ACM International
+                                Conference on Internet Multimedia Computing and Service
+                                (ICIMCS)</i>, August 2015. <strong>(Best Pape)</strong> <a
+                                href="http://arxiv.org/pdf/1508.05028v1"> [PDF]</a> <a
+                                href="http://www.cs.rochester.edu/%7Eyli/haze-level.html"> [Project Page]</a>
+                            </li>
+                            <li>Yuning Jiang, Jingjing Meng, Junsong Yuan, Jiebo Luo,
+                                "Randomized Spatial Context for Object Search," <i>IEEE Trans. on Image Processing</i>,
+                                24(6): 1748-1762, 2015.
+                            </li>
+                            <li>Wu Liu, Tao Mei, Yongdong Zhang, Cherry Che and Jiebo Luo,
+                                "Multi-Task Deep Visual-Semantic Embedding for Video Thumbnail
+                                Selection," <i>IEEE
+                                International Conference on Computer Vision and Pattern
+                                Recognition (CVPR)</i>, Boston, MA, June 2015.
+                            </li>
+                            <li>Wanying Ding, Junhuan Zhu, Lifan Guo, Xiaohua Hu, Jiebo Luo,
+                                Haohong Wang, "Jointly Image Topic and Emotion Detection using
+                                Multi-Modal Hierarchical Latent Dirichlet Allocation," <i>Journal of Multimedia Information
+                                System,</i> 2015.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Jiebo Luo, "Speeded up Low Rank Online
+                                Metric Learning for Object Tracking," <i>IEEE Transactions on Circuits and Systems for Video
+                                Technology</i>, 2015.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("cv-2010-2014", e)}>2010-2014</button>
                     <div id="cv-2010-2014" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Young Chol Song, Henry Kautz, James Allen, Mary Swift, Yuncheng Li, Jiebo Luo, 
+                                "A Markov Logic Framework for Recognizing Complex Events from Multimodal Data," 
+                                <i>ACM International Conference on Multimodal Interaction (ICMI)</i>, Sidney, Australia, December 2013.
+                            </li>
+                            <li>Yao Zhou and Jiebo Luo, "A Practical Method for Counting Arbitrary Target Objects in an Arbitrary Scene," 
+                                <i>IEEE ICME</i>, July 2013.
+                            </li>
+                            <li>Congyan Lang, Jiashi Feng, Guangcan Liu, Jinghui Tang, Shuicheng Yan and Jiebo Luo, "Improving Bottom-up 
+                                Saliency Detection by Looking into Neighbors," <i>IEEE Transactions on Circuits and Systems for Video 
+                                Technology</i>, 23(6): 1016-1028, June 2013.
+                            </li>
+                            <li>Minwoo Park, Jiebo Luo, Andrew Gallagher, Majid Rabbani, "Learning to Produce 3D Media from a Captured 2D Video," 
+                                <i>IEEE Transactions on Multimedia</i>, 15(7): 1569-1578, 2013.
+                            </li>
+                            <li>Hua Wang, Dhiraj Joshi, Jiebo Luo, and Heng Huang, "Simultaneous Image Annotation and Geo-Tag Prediction via 
+                                Correlation Guided Structured Multi-Task Learning," <i>IEEE Symposium on Multimedia (ISM)</i>, December 2012.
+                            </li>
+                            <li>Jianchao Yang, Jiebo Luo, Jie Yu, Thomas. Huang, "Photo Stream Alignment and Summarization for Collaborative Photo Collection and Sharing," 
+                                <i>IEEE Transactions on Multimedia</i>, 14(6): 1642-1651, December 2012.
+                            </li>
+                            <li>Youjie Zhou, Jiebo Luo, " Geo-Location Inference on News Articles via Multimodal pLSA," 
+                                <i>ACM Multimedia Conference</i>, Nara, Japan, October 2012. 
+                            </li>
+                            <li>Xiaobin Xu, Tao Mei, Wenjun Zeng, Nenghai Yu, Jiebo Luo, "AMIGO: Accurate Mobile Image GeOtagging," <i>ACM International Conference on 
+                                Internet Multimedia Computing and Services</i>, Wuhan, China, September 2012. <strong>(Best Paper)</strong>
+                            </li>
+                            <li>Lin Chen, Dong Xu, Ivor Tsang, and Jiebo Luo for the paper entitled, "Tag-Based Image Retrieval Improved by Augmented Features 
+                                and Group-Based Refinement", <i>IEEE Transactions on Multimedia</i>, Volume 14, Number 4, August 2012. <strong>(2014 IEEE Multimedia 
+                                Prize Paper Award)</strong>
+                            </li>
+                            <li>Minwoo Park, Jiebo Luo, Andrew Gallagher, "Towards Assessing and Improving the Quality of Stereo Images,"  Special Issue on Emerging 
+                                Techniques in 3D, <i>IEEE Journal of Selected Topics in Signal Processing</i>, 6(5): 460 - 470, 2012.
+                            </li>
+                            <li>Siyu Xia, Ming Shao, Jiebo Luo, and Yun Fu, "Understanding Kin Relationships in a Photo," Special Issue on Learning Semantics 
+                                from Multimedia Web Resources, <i>IEEE Transactions on Multimedia</i>, 14(4): 1046-1056, 2012.
+                            </li>
+                            <li>Lin Chen, Dong Xu, Ivor W. Tsang, Jiebo Luo, "Tag-based Image Retrieval Improved by SVM with Augmented 
+                                Features and Group-based Refinement,"  Special Issue on Learning Semantics from Multimedia Web Resources, 
+                                <i>IEEE Transactions on Multimedia</i>, 14(4): 1057-1067, 2012.
+                            </li>
+                            <li>Cong Yang, Junsong Yuan, Jiebo Luo, "Towards Scalable Summarization of Consumer Videos via Sparse Dictionary 
+                                Selection,"  Special Issue on Object and Event Classification in Large-Scale Video Collections, 
+                                <i>IEEE Transactions on Multimedia</i>, 14(1): 66-75, February 2012.
+                            </li>
+                            <li>Dhiraj Joshi, Ritendra Datta, Elena Fedorovskaya, Jia Li, James Z. Wang, Jiebo Luo, "Computational 
+                                inference of aesthetics, mood, and emotion in images," <i>IEEE Signal Processing Magazine</i>, 
+                                28(5):  94-115, September 2011.
+                            </li>
+                            <li>Yiming Liu, Dong Xu, Ivor Tsang, Jiebo Luo, "Textual query of personal photos facilitated by 
+                                large-scale web data," <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, 
+                                33(5): 1022-1036, May 2011.
+                            </li>
+                            <li>Minwoo Park, Jiebo Luo, Robert Collions, Yanxi Liu, Beyond GPS: Determining the viewing direction 
+                                of a geotagged image," <i>ACM Multimedia Conference</i>, Firenze, Italy, October 2010.
+                            </li>
+                            <li>Xiaobai Liu, Shuicheng Yan, Jiebo Luo, Jinhui Tang, ZhongYang Huang, Hai Jin, 
+                                "Nonparametric Label-to-Region by Search," <i>CVPR</i>, 2010.
+                            </li>
+                            <li>Jingen Liu, Jiebo Luo, Mubarak Shah, "Recognizing Realistic Actions from Videos in the Wild," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition, Miami</i>, FL, June 2009. 
+                                <strong> (Oral Presentation)</strong> <a href="http://www.cs.ucf.edu/~liujg/realistic_action_recognition.html"> [Project Page]</a>
+                            </li>
                         </ul>
                     </div>
 
