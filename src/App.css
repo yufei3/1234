@@ -515,6 +515,7 @@ a{
 
 .tabcontent{
 	padding-top: 15px;
+	min-height: 550px;
 }
 
 /* Set the default page when 'Research' is clicked */
