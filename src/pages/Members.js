@@ -25,6 +25,10 @@ class Members extends React.Component{
             }
         
         }
+
+        function Open(){
+            window.open("https://www.google.com", "_blank");
+        }
         return (
         
         <div>
@@ -70,8 +74,8 @@ class Members extends React.Component{
                                 </div>  
                                 <div class="card_desc">
                                     <p><strong>Yuncheng Li</strong></p>
-                                    <p>Snapchat Research 2017-2019</p>
-                                    <p>Google Brain since 2019</p>
+                                    <p><a href="https://www.snap.com/en-US" target="_blank">Snapchat Research</a> 2017-2019</p>
+                                    <p><a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> since 2019</p>
                                     <a href="https://scholar.google.com/citations?user=2LwbQtMAAAAJ&hl=en" target="_blank">View</a>
                                 </div>
                             </div>
@@ -81,9 +85,9 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Quanzeng You</strong></p>
-                                    <p>Microsoft Research AI since 2017</p>
+                                    <p><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/" target="_blank">Microsoft Research AI</a> since 2017</p>
                                     <a href="https://qzyou.github.io/" target="_blank">View</a>
-                                    <input type="button" onClick="https://www.w3.org/Style/Examples/007/center.en.html"></input>
+                                    
                                 </div>
                             </div>
                             <div class="card_item">
@@ -92,8 +96,8 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Tianrun Hu</strong></p>
-                                    <p>College of William & Mary</p>
-                                    <button>View</button>
+                                    <p><a href="https://www.wm.edu/" target="_blank">College of William & Mary</a></p>
+                                    <a href="https://www.cs.wm.edu/~thu/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -102,8 +106,8 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Jianbo Yuan</strong></p>
-                                    <p>Amazon - AWS</p>
-                                    <button>View</button>
+                                    <p><a href="https://aws.amazon.com/cn/" target="_blank">Amazon - AWS</a></p>
+                                    <a href="https://scholar.google.com/citations?user=B1EhbCsAAAAJ&hl=zh-CN" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -111,9 +115,9 @@ class Members extends React.Component{
                                     <img src="https://s2.loli.net/2022/04/09/xsnlkPUhrA6C58d.jpg" alt="" width="140" height="170" />
                                 </div>
                                 <div class="card_desc">
-                                    <p><strong>Yu Wang (PSC)</strong></p>
+                                    <p><strong>Yu Wang <a href="https://www.sas.rochester.edu/psc/" target="_blank">(PSC)</a></strong></p>
                                     <p>Apple Siri since 2018</p>
-                                    <button>View</button>
+                                    <a href="https://sites.google.com/site/wangyurochester/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -123,7 +127,7 @@ class Members extends React.Component{
                                 <div class="card_desc">
                                     <p><strong>Yang Feng</strong></p>
                                     <p>Google Cloud</p>
-                                    <button>View</button>
+                                    <a href="https://scholar.google.com/citations?user=sIAxgd0AAAAJ&hl=zh-CN" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -132,8 +136,8 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Haofu Liao</strong></p>
-                                    <p>Amazon - AWS</p>
-                                    <button>View</button>
+                                    <p><a href="https://aws.amazon.com/cn/" target="_blank">Amazon - AWS</a></p>
+                                    <a href="http://liaohaofu.com/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -142,7 +146,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Tianlang Chen</strong></p>
-                                    <button>View</button>
+                                    <a href="https://www.cs.rochester.edu/u/tchen45/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -151,7 +155,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Zhengyuan Yang</strong></p>
-                                    <button>View</button>
+                                    <a href="https://zyang-ur.github.io//" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -160,7 +164,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Wei Xiong</strong></p>
-                                    <button>View</button>
+                                    <a href="https://wxiong.me/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -169,7 +173,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Weijian Li</strong></p>
-                                    <button>View</button>
+                                    <a href="https://www.cs.rochester.edu/u/wli69/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -178,7 +182,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Songyang Zhang</strong></p>
-                                    <button>View</button>
+                                    <a href="https://sy-zhang.github.io/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -187,7 +191,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Wei Zhu</strong></p>
-                                    <button>View</button>
+                                    <a href="https://zwvews.github.io/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -196,7 +200,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Haitian Zheng</strong></p>
-                                    <button>View</button>
+                                    <a href="https://www.cs.rochester.edu/u/hzheng15/haitian_homepage/index.html" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -205,7 +209,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Jie An</strong></p>
-                                    <button>View</button>
+                                    <a href="https://www.cs.rochester.edu/u/jan6/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -214,7 +218,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Zhaoyi Wan</strong></p>
-                                    <button>View</button>
+                                    <a href="https://www.wanzy.me/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -223,7 +227,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Yuqi Gao</strong></p>
-                                    <button>View</button>
+                                    <a href="https://scholar.google.com/citations?hl=en&user=BM-e8ygAAAAJ" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -232,7 +236,7 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Hang Hua</strong></p>
-                                    <button>View</button>
+                                    <a href="https://hanghuacs.owlstown.net/" target="_blank">View</a>
                                 </div>
                             </div>
                             <div class="card_item">
@@ -241,37 +245,48 @@ class Members extends React.Component{
                                 </div>
                                 <div class="card_desc">
                                     <p><strong>Hanjia Lyu</strong></p>
-                                    <button>View</button>
+                                    <a href="https://brucelyu.info/" target="_blank">View</a>
                                 </div>
                             </div>   
                 </section>
 
+
+                <section className="introduction">
+                    <h3>Other Students</h3>
+                </section>
                 <div class="other_student_container">
                     <div id="Students" className="tabcontent">
-                        <button className="accordion" onClick={(e) => openTab("Section1", e)}>MS Students</button>
+                        <button className="accordion" onClick={(e) => openTab("Section1", e)}>Visiting PhD Students</button>
                         <div id="Section1" className="panel">
+                            <ul>
+                                <li>Mingkun Yang <a href="https://scholar.google.com/citations?user=3EfF1qgAAAAJ&hl=zh-CN" target="_blank">(Details)</a></li>
+                            </ul>
+                        </div>
+
+                        <button className="accordion" onClick={(e) => openTab("Section2", e)}>MS Students</button>
+                        <div id="Section2" className="panel">
                             <ul>
                                 <li>CS Program: Arsal Imtiaz, Ashwin Ramesh, Henry Moncure, Haozheng Du, Junda Wang, Viet Duong</li>
                                 <li>DS Program: Junyu Chen, Matthew Johnston, Mohamad Ali Kalassina, Hanjia Lyu, Ravi Dugh, Yangxin Fan, Tangqiu Jiang, Ziyu Xiong</li>
                             </ul>
                         </div>
 
-                        <button className="accordion" onClick={(e) => openTab("Section2", e)}>Undergraduate Students</button>
-                        <div id="Section2" className="panel">
+                        <button className="accordion" onClick={(e) => openTab("Section3", e)}>Undergraduate Students</button>
+                        <div id="Section3" className="panel">
                             <ul>
                                 <li>CS/DS Program: Grace Julien, Nikola Danevski, Enting Zhou, Yurong Liu, Jingyuan Chen, Emile Hemway, Peirong Hao, Xiaojun Min, Zachary Mustin, Brian Kimani, Sidhant Bendre, Anisha Bhattacharya, Alexandra Ferrante, Zihe Zheng, Neil Yeung, Jonathan Lai, Wei Wu, Jinglong Ruan, Bokai Zhang</li>
                                 <li>NSF REU Program: Michael Zhou (Cornell), Miles Sigel (Rice)</li>
                             </ul>
                         </div>
 
-                        <button className="accordion" onClick={(e) => openTab("Section3", e)}>Alumni</button>
-                        <div id="Section3" className="panel">
+                        <button className="accordion" onClick={(e) => openTab("Section4", e)}>Alumni</button>
+                        <div id="Section4" className="panel">
                             <ul>
                                 <li>Visiting Professors: 
                                     <ul>
                                         <li>Prof. Yang Cong (SIA)</li>
                                         <li>Prof. Tian-Liang Liu (NUPT)</li>
-                                        <li>Prof. Jun Wu (BJYU)</li>
+                                        <li>Prof. Jun Wu (BJYU) <a href="https://scholar.google.com.hk/citations?user=CAF8T7MAAAAJ&hl=en" target="_blank">(Details)</a></li>
                                         <li>Prof. Congyan Lang (BJTU)</li>
                                         <li>Prof. Weining Wang (SCUT)</li>
                                         <li>Prof. Yi Wang (DLUT)</li>
@@ -285,13 +300,13 @@ class Members extends React.Component{
                                 <li>Visiting PhD Students: 
                                     <ul>
                                         <li>Kuan-Ting Chen (NTU)</li>
-                                        <li>Wu Liu (ICT, Chinese Academy of Sciences)</li>
+                                        <li>Wu Liu <a href="http://english.ict.cas.cn/" target="_blank">(ICT, Chinese Academy of Sciences)</a></li>
                                         <li>Zhiwei Jin (ICT, Chinese Academy of Sciences)</li>
                                         <li>Xiangyang Xu (Nanjing University)</li>
                                         <li>Jesse Wang (UR Medicine)</li>
-                                        <li>Luigi Celona (Universita degli Studi di Milano-Bicocca)</li>
+                                        <li>Luigi Celona <a href="https://www.researchgate.net/institution/Universita_degli_Studi_di_Milano-Bicocca" target="_blank">(Universita degli Studi di Milano-Bicocca)</a></li>
                                         <li>Mengshi Qi (Beihang University)</li>
-                                        <li>Wenbin Li (Nanjing University)</li>
+                                        <li>Wenbin Li (Nanjing University) <a href="https://cs.nju.edu.cn/rl/people/liwb/index.psp" target="_blank">(Details)</a></li>
                                         <li>Jianxin Lin (USTC)</li>
                                         <li>Jing Wang (NJUST)</li>
                                     </ul>
