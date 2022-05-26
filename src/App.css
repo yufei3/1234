@@ -142,6 +142,10 @@ a{
 	;
 }
 
+.grid-right > a:hover{
+	background: #C4DDFF;
+}
+
 
 .professor-intro{
     margin-top: 50px;
