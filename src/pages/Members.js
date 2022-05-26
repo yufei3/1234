@@ -74,7 +74,6 @@ class Members extends React.Component{
                                 </div>  
                                 <div class="card_desc">
                                     <p><strong>Yuncheng Li</strong></p>
-                                    <p><a href="https://www.snap.com/en-US" target="_blank">Snapchat Research</a> 2017-2019</p>
                                     <p><a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> since 2019</p>
                                     <a href="https://scholar.google.com/citations?user=2LwbQtMAAAAJ&hl=en" target="_blank">View</a>
                                 </div>
