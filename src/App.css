@@ -1,6 +1,6 @@
-/*{ border: 1px solid pink;
+*{ border: 1px solid pink;
     box-sizing: border-box;
-} */
+}
 
 body{
 	font-family: 'Open Sans', 'Lato', 'PT Sans', sans-serif;
@@ -645,6 +645,10 @@ a{
 
 .member-btn{
 	color:rgb(65, 18, 40);
+}
+
+.panel li{
+	margin-bottom: 10px;
 }
 
 
