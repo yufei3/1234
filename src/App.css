@@ -118,17 +118,17 @@ a{
   	align-items: center;
 	margin-left:auto;
 	margin-right:auto;
-	/*max-width:1000px;*/
+	min-width:300px;
 	
 }
 
 .grid-left{
-	margin-left: 180px;
+	margin-left: 200px;
 	margin-top: 80px;
 }
 
 .grid-right{
-	margin-right: 180px;
+	margin-right: 200px;
 }
 
 .grid-right > a{
@@ -136,7 +136,7 @@ a{
 	background: #9AD0EC;
 	border: 2;
 	color: rgb(0, 0, 0);
-	padding: 8px 10px 8px 10px;
+	padding: 8px 20px 8px 20px;
 	width: 100%;
 	border-radius: 2px;
 	;
@@ -232,7 +232,7 @@ a{
 .card_item{
 	background-color: white;
 	width: 200px;
-	height: 400px;
+	height: 330px;
 	margin: 10px;
 	border-radius: 2px;
 	margin: 30px;
