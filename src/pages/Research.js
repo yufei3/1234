@@ -858,11 +858,30 @@ class Research extends React.Component{
                     <button className="accordion" onClick={(e) => openTab("ml-2022", e)}>2022</button>
                     <div id="ml-2022" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Wei Zhu, Jiebo Luo, "Federated Medical Image Analysis with
+                                Virtual Sample Synthesis," <i>International Conference on
+                                Medical Image Computing and Computer Assisted Interventions</i>
+                                (MICCAI), Singapore, September 2022.</li>
+                            <li>Wei Zhu, Andrew White, and Jiebo Luo, "Federated Learning of
+                                Molecular Properties in a Heterogeneous Setting," <i>Cell
+                                Patterns</i>, 2022.
+                            </li>
+                            <li>Wei Zhu, Le Lu, Jing Xiao, Mei Han, Jiebo Luo, Adam Harrison, 
+                                "Localized Adversarial Domain Generalization," <i>IEEE/CVF 
+                                Conferences on Computer Vision and Pattern Recognition </i>(CVPR), June 2022.
+                            </li>
+                            <li>Kai Zhu, Yang Cao, Wei Zhai, Jiebo Luo, Zheng-jun Zha, "Self-Sustaining 
+                                Representation Expansion for Non-Exemplar Class-Incremental Learning," 
+                                <i>IEEE/CVF Conferences on Computer Vision and Pattern Recognition </i>(CVPR), June 2022.
+                            </li>
+                            <li>Shaofei Cai, Liang Li, Xinzhen Han, Jiebo Luo, Zheng-Jun Zha, Qingming Huang, 
+                                "Automatic Relation-aware Graph Network Proliferation," <i>IEEE/CVF 
+                                Conferences on Computer Vision and Pattern Recognition </i>(CVPR), June 2022.
+                            </li>
+                            <li>Jian Kang, Yan Zhu, Yinglong Xia, Jiebo Luo, Hanghang Tong. "RawlsGCN: Towards 
+                                Rawlsian Difference Principle on Graph Convolutional Network," <i>ACM Web Conference </i>
+                                (WWW), 2022.
+                            </li>
                         </ul>
                     </div>
                     
@@ -870,88 +889,208 @@ class Research extends React.Component{
                     <button className="accordion" onClick={(e) => openTab("ml-2021", e)}>2021</button>
                     <div id="ml-2021" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Hongwei Xue, Yupan Huang, Bei Liu, Houwen Peng, Jianlong Fu,
+                                Houqiang Li, Jiebo Luo, "Probing Inter-modality: Visual Parsing
+                                with Self-Attention for Vision-and-Language Pre-training," 
+                                <i>Neural Information Processing Systems</i> (NeurlPS), December 2021.
+                            </li>
+                            <li>Yiming Xu, Lin Chen, Lixin Duan, Ivor Tsang, Jiebo Luo, "Open
+                                Set Domain Adaptation with Soft Unknown-Class Rejection," 
+                                <i>IEEE Transactions on Neural Networks and Learning Systems</i>
+                                (TNNLS), in press.
+                            </li>
+                            <li>Wei Zhu, Haitian Zheng, Haofu Liao, Weijian Li, Jiebo Luo,
+                                "Learning Bias-Invariant Representation by Cross-Sample Mutual
+                                Information Minimization," <i>International Conference on
+                                Computer Vision</i> (ICCV), 2021.
+                            </li>
+                            <li>Guo-Jun Qi, Jiebo Luo, "Small Data Challenges in Big Data Era:
+                                A Survey of Recent Progress on Unsupervised and Semi-Supervised
+                                Methods," <i>IEEE Transactions on Pattern Analysis and Machine
+                                Intelligence</i>, in press.
+                            </li>
+                            <li>Xiao Wang, Guo-Jun Qi, Jiebo Luo, "EnAET: A Self-Trained
+                                Framework for Semi-Supervised and Supervised Learning with
+                                Ensemble Transformation," <i>IEEE Transactions on Image
+                                Processing</i>, 30: 1639-1647, 2021.
+                            </li>
+                            <li>Wei Zhu, Wenbin Li, Haofu Liao, and Jiebo Luo, ''Temperature
+                                Network for Few-shot Learning with Distribution-aware
+                                Large-margin Metric,'' <i>Pattern Recognition</i>, in press.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2020", e)}>2020</button>
                     <div id="ml-2020" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Mengshi Qi, Jie Qin, Xiantong Zhen, Di Huang, Yi Yang, Jiebo
+                                Luo, "Few-Shot Ensemble Learning for Video Classification with
+                                SlowFast Memory Networks," <i>ACM Multimedia Conference</i>,
+                                Seattle, WA, October 2020.
+                            </li>
+                            <li>Wenbin Li, Lei Wang, Jing Huo. Yinghuan Shi, Yang Gao, Jiebo
+                                Luo, "Asymmetric Distribution Measure for Few-shot Learning," <i>International Joint Conference on Artificial Intelligence</i> (IJCAI),
+                                Yokohama, Japan, July 2020.
+                            </li>
+                            <li>Zhongjie Yu, Lin Chen, Zhongwei Cheng, Jiebo Luo, "TransMatch:
+                                A Transfer-Learning Scheme for Semi-Supervised Few-Shot
+                                Learning," <i>IEEE/CVF Conferences on Computer Vision and
+                                Pattern Recognition</i> (CVPR), Seattle, WA, June 2020.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2019", e)}>2019</button>
                     <div id="ml-2019" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yi Wang, Nan Xue, Xin Fan, Jiebo Luo, Risheng Liu, Haojie Li,
+                                Bin Chen, Zhongxun Luo, "Novelty Detection and Online Learning
+                                for Chunk Data Streams," <i>IEEE Transactions on Pattern
+                                Analysis and Machine Intelligence</i>, in press.
+                            </li>
+                            <li>Wenbin Li, Lei Wang, Jinglin Xu, Jing Huo, Yang Gao and Jiebo
+                                Luo, "Revisiting Local Descriptor based Image-to-Class Measure
+                                for Few-shot Learning," <i>IEEE Conference on Computer Vision
+                                and Pattern Recognition (CVPR)</i>, Long Beach, CA, June 2019.
+                                <a href="https://arxiv.org/abs/1903.12290"> [PDF]</a> <a
+                                href="https://github.com/WenbinLee/DN4"> [Github]</a>
+                            </li>
+                            <li>Wenbin Li, Jing Huo, Yinghuan Shi, Yang Guo, Lei Wang, Jiebo
+                                Luo, "Distribution Consistency based Covariance Metric Networks
+                                for Few Shot Learning," <i>The 33rd AAAI Conference on
+                                Artificial Intelligence (AAAI)</i>, Honolulu, HI, February
+                                2019. <strong>(oral presentation)</strong> 
+                                <a href="https://www.researchgate.net/profile/Jinglin_Xu2/publication/331831434_Distribution_Consistency_based_Covariance_Metric_Networks_for_Few-shot_Learning/links/5c8f457945851564fae48610/Distribution-Consistency-based-Covariance-Metric-Networks-for-Few-shot-Learning.pdf"> [PDF]</a> 
+                                <a href="https://github.com/WenbinLee/CovaMNet"> [Github]</a>
+                            </li>
+                            <li>Liheng Zhang, Guo-Jun Qi, Liqiang Wang, Jiebo Luo, "AET vs.
+                                AED: Unsupervised Representation Learning by Auto-Encoding
+                                Transformations rather than Data," <i>IEEE Conference on
+                                Computer Vision and Pattern Recognition (CVPR)</i>,
+                                Long Beach, CA, June 2019. <strong>(oral presentation)</strong>
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2018", e)}>2018</button>
                     <div id="ml-2018" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yi Wang, Nan Xue, Xin Fan, Jiebo Luo, Risheng Liu, Haojie Li,
+                                Bin Chen, Zhongxun Luo, "Fast factorization-free Kernel Learning
+                                for Unlabeled Chunk Data Streams," <i>International Joint
+                                Conference on Artificial Intelligence (IJCAI)</i>, Stockholm,
+                                Sweden, July 2018.
+                            </li>
+                            <li>Xiaotong Zhang, Xianchao Zhang, Han Liu, Jiebo Luo,
+                                "Multi-Task Clustering with Model Relation Learning," <i>International Joint Conference on Artificial Intelligence (IJCAI)</i>,
+                                Stockholm, Sweden, July 2018.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Jiebo Luo, "Sparse Low-rank Online
+                                Similarity Learning," <i>IEEE Transactions on Cybernetics</i>,
+                                73: 33-46, 2018.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Jiebo Luo, "Online Similarity Learning for
+                                Big Data with Overfitting," <i>IEEE Transactions on Big Data</i>,
+                                4(1): 78-89, 2018.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2017", e)}>2017</button>
                     <div id="ml-2017" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Jianbo Yuan, Han Guo, Zhiwei Jin, and Jiebo Luo, "One-shot
+                                Learning for Fine-grained Relation Extraction via Convolutional
+                                Siamese Neural Network," <i>IEEE Big Data Conference</i>,
+                                Boston, MA, December 2017.
+                            </li>
+                            <li>Yuncheng Li, Jianchao Yang, Yale Song, Liangliang Cao, Jia Li
+                                and Jiebo Luo, "Learning from Noisy Labels with Distillation," <i>International Conference on
+                                Computer Vision </i>(ICCV), Venice, Italy, October 2017.
+                            </li>
+                            <li>Guo-Jun Qi, Jiliang Tang, Jingdong Wang and Jiebo Luo,
+                                "Mixture Factorized Ornstein-Uhlenbeck Processes for Time-Series
+                                Forecasting," <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining </i>
+                                (KDD), Nova Scotia, Canada, August 2017.
+                            </li>
+                            <li>Yuncheng Li, Yale Song, Jiebo Luo, "Improving Pairwise Ranking
+                                for Multi-label Image Classification," <i>IEEE Conference on Computer 
+                                Vision and Pattern Recognition (CVPR)</i>, Hawaii, July 2017.
+                            </li>
+                            <li>Yi Wang, Xin Fan, Maomao Min, Jiebo Luo, "Fast Online
+                                Incremental Learning on Mixture Streaming Data," <i>The 
+                                31st AAAI Conference on Artificial Intelligence (AAAI)</i>, San Francisco, CA,
+                                February 2017.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2016", e)}>2016</button>
                     <div id="ml-2016" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Xianchao Zhang, Haixing Li, Wenxin Liang, Jiebo Luo, "Multi-Type 
+                                Co-clustering of General Heterogeneous Information Networks," 
+                                <i>IEEE International Conference on Data Mining (ICDM)</i>, 
+                                December 2016.
+                            </li>
+                            <li>Young Chol Song, Iftekhar Naim, Abdullah Al Mamun, Kaustubh Kulkarni, 
+                                Parag Singla, Jiebo Luo, Daniel Gildea and Henry Kautz, 
+                                "Unsupervised Alignment of Actions in Video with Text Descriptions," 
+                                <i>AAAI International Joint Conference on Artificial Intelligence (IJCAI)</i>, 
+                                New York City, July 2016.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2015", e)}>2015</button>
                     <div id="ml-2015" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Iftekhar Naim, Young Chol Song, Henry Kautz, Jiebo Luo, Qiguang Liu, 
+                                Daniel Gildea, and Liang Huang, "Discriminative Unsupervised Alignment 
+                                of Natural Language Instructions with Corresponding Video Segments," 
+                                <i>North American Chapter of the Association for Computational Linguistics  
+                                (NAACL)</i>, 2015.
+                            </li>
+                            <li>Quanzeng You, Jiebo Luo, Hailin Jin, and Jianchao Yang,
+                                "Robust Image Sentiment Analysis using Progressively Trained and
+                                Domain Transferred Deep Networks," <i>The Twenty-Ninth AAAI Conference on Artificial
+                                Intelligence (AAAI)</i>, Austin, TX, January 25-30, 2015. 
+                                <a href="http://www.cs.rochester.edu/u/qyou/papers/sentiment_analysis_final.pdf"> [PDF]</a>
+                                <a href="http://www.cs.rochester.edu/u/qyou/DeepSent/deepsentiment.html"> [Project Page]</a>
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ml-2010-2014", e)}>2010-2014</button>
                     <div id="ml-2010-2014" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Iftekhar Naim, Young Song, Daniel Gildea, Qiguang Liu, Henry
+                                Kautz and Jiebo Luo, "Unsupervised Alignment of Natural Language
+                                Instructions with Video Segments," <i>the Twenty-Eighth AAAI Conference on Artificial
+                                Intelligence (AAAI)</i>, Quebec City, Canada, July 27-31,
+                                2014.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Junsong Yuan, Jiebo Luo, "Self-Supervised
+                                Online Metric Learning With Low Rank Constraint for Scene
+                                Categorization." <i>IEEE Transactions on Image Processing</i>, 22(8): 3179-3191,
+                                2013.
+                            </li>
+                            <li>Liangliang Cao, Xin Jin, Zhijun Yin, Andrey Del Pozo, Jiebo Luo, Jiawei Han, 
+                                Thomas S. Huang, "RankCompete: Simultaneous ranking and clustering of 
+                                information networks," <i>Neurocomputing</i>, 95: 98-104, 2012.
+                            </li>
+                            <li> Yahong Han, Fei Wu, Qi Tian, Yueting Zhuang, Jiebo Luo,
+                                "Correlated Attribute Transfer with Multi-task Graph-Guided
+                                Fusion," <i>ACM Multimedia Conference</i>, Nara, Japan,
+                                October 2012. (Long paper)
+                            </li>
+                            <li> Lixin Duan, Dong Xu, Ivor Tsang, Jiebo Luo, "Visual Event
+                                Recognition in Videos by Learning from Web Data," <i>IEEE
+                                Conference on Computer Vision and Pattern Recognition</i>,
+                                San Francisco, CA, June 2010. <strong>(Best Student Paper)</strong> 
+                                <a href="http://vc.sce.ntu.edu.sg/index_files/VisualEventRecognition/VisualEventRecognition.html"> [Project Page]</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -961,99 +1100,615 @@ class Research extends React.Component{
                     <button className="accordion" onClick={(e) => openTab("sm-2022", e)}>2022</button>
                     <div id="sm-2022" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Junda Wang, Xupin Zhang, Jiebo Luo, "How COVID-19 Have Changed
+                                Crowdfunding: Evidence from GoFundMe," <i>Frontiers on Computer
+                                Science</i>, section Human-Media Interaction, Vol. 4, 2022.
+                            </li>
+                            <li>Arsal Imtiaz, Danish Khan, Hanjia Lyu, and Jiebo Luo, "Taking
+                                sides: Public Opinion over the Israel-Palestine Conflict in
+                                2021," International Workshop on Social Sensing (SocialSens):
+                                Special Edition on Belief Dynamics, <i>AAAI International
+                                Conference on Web and Social Media </i>(ICWSM), Atlanta, GA,
+                                June 2022.
+                            </li>
+                            <li>Yichi Qian, Qiyi Shan, Hanjia Lyu, and Jiebo Luo, "Look behind
+                                the Censorship: Reposting-User Characterization and Muted-Topic
+                                Restoration," International Workshop on Social Sensing
+                                (SocialSens): Special Edition on Belief Dynamics, <i>AAAI
+                                International Conference on Web and Social Media</i> (ICWSM),
+                                Atlanta, GA, June 2022.
+                            </li>
+                            <li>Yingqiang Ge, Juntao Tan, Yan Zhu, Yinglong Xia, Jiebo Luo,
+                                Shuchang Liu, Zuohui Fu, Shijie Geng, Zelong Li and Yongfeng
+                                Zhang, "Explainable Fairness for Feature-aware Recommender
+                                Systems," <i>ACM SIGIR Conference on Research and Development
+                                in Information Retrieval </i>(SIGIR 2022), July 11 - 15,
+                                2022, Madrid, Spain.
+                            </li>
+                            <li>Hanjia Lyu, Zihe Zheng, and Jiebo Luo, "Misinformation versus
+                                Facts: Understanding the Influence of News Regarding COVID-19
+                                Vaccines on Vaccine Uptake," <i>Health Data Science</i>, 2022.
+                            </li>
+                            <li>Jian Kang, Yan Zhu, Yinglong Xia, Jiebo Luo, Hanghang Tong.
+                                "RawlsGCN: Towards Rawlsian Difference Principle on Graph
+                                Convolutional Network," <i>ACM Web Conference</i> (WWW), 2022.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2021", e)}>2021</button>
                     <div id="sm-2021" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Hanjia Lyu, Yangxin Fan, Ziyu Xiong, Mayya Komisarchik, and
+                                Jiebo Luo, "Understanding Public Opinion toward the
+                                #StopAsianHate Movement and the Relation with Racially Motivated
+                                Hate Crimes in the US," <i>IEEE Transactions on Computational
+                                Social Systems</i>, in press.
+                            </li>
+                            <li>Haitian Zheng, Kefei Wu, Jong-Hwi Park, Wei Zhu, and Jiebo
+                                Luo, "Personalized Fashion Recommendation from Personal Social
+                                Media Data: An Item-to-Set Metric Learning Approach," <i>IEEE
+                                International Conference on Big Data</i>, December 2021.</li>
+                            <li>Tanqiu Jiang, Sidhant Bendre, Hanjia Lyu, and Jiebo Luo, "From
+                                Static to Dynamic Prediction: Wildfire Risk Assessment Based on
+                                Multiple Environmental Factors," Special Session on Intelligent
+                                Data Mining, <i>IEEE International Conference on Big Data</i>,
+                                December 2021.
+                            </li>
+                            <li>Xupin Zhang, Hanjia Lyu, and Jiebo Luo, "Understanding the
+                                Hoarding Behaviors during the COVID-19 Pandemic using Large
+                                Scale Social Media Data," Special Session on Intelligent Data
+                                Mining, <i>IEEE International Conference on Big Data</i>,
+                                December 2021.
+                            </li>
+                            <li>Songyang Zhang, Tolga Aktas, and Jiebo Luo, "Mi YouTube es Su
+                                YouTube? Analyzing the Cultures using YouTube Thumbnails of
+                                Popular Videos," Special Session on Intelligent Data Mining, <i>
+                                IEEE International Conference on Big Data</i>, December 2021.
+                            </li>
+                            <li>Hanjia Lyu, Junda Wang, Wei Wu, Viet Duong, Xiyang Zhang,
+                                Timothy D. Dye, and Jiebo Luo, "Social Media Study of Public
+                                Opinions on Potential COVID-19 Vaccines: Informing Dissent,
+                                Disparities, and Dissemination," <i>Intelligent Medicine</i>,
+                                2021.</li>
+                            <li>Junda Wang, Xupin Zhang, Jiebo Luo, "How COVID-19 Has Changed
+                                the World of Crowdfunding," <i>Sustainability</i>, 2021.
+                            </li>
+                            <li>Ziyu Xiong, Pin Li, Hanjia Lyu, and Jiebo Luo, "Social Media
+                                Opinions on Working From Home in the United States During the
+                                COVID-19 Pandemic: Observational Study," <i>JMIR Medical
+                                Informatics</i>, 2021.
+                            </li>
+                            <li>Wei Wu, Hanjia Lyu, Jiebo Luo, "Characterizing Discourse about
+                                COVID-19 Vaccines: A Reddit Version of the Pandemic Story," <i>Health Data Science</i>, 2021.</li>
+                            <li>Xupin Zhang, Hanjia Lyu, Jiebo Luo, "What Contributes to a
+                                Crowdfunding Campaign's Success?
+                                Evidence and Analyses from GoFundMe Data," <i>IEEE Journal of
+                                Social Computing</i>, 2021.
+                            </li>
+                            <li>Zhongkai Shangguan, Zihe Zheng and Jiebo Luo, "What Makes A
+                                Turing Award Winner?" <i>International Conference on Social
+                                Computing, Behavioral-Cultural Modeling &amp; Prediction and
+                                Behavior Representation in Modeling and Simulation (SBP-BRiMS)</i>,
+                                Virtual, July 2021.
+                            </li>
+                            <li>Long Chen, Hanjia Lyu, Tongyu Yang, Yu Wang and Jiebo Luo,
+                                "Fine-Grained Analysis of the Use of Neutral and Controversial
+                                Terms for COVID-19 on Social Media," <i>International
+                                Conference on Social Computing, Behavioral-Cultural Modeling
+                                &amp; Prediction and Behavior Representation in Modeling and
+                                Simulation (SBP-BRiMS)</i>, Virtual, July 2021.
+                            </li>
+                            <li>Karan Vombatkere, Hanjia Lyu and Jiebo Luo, "How Political is
+                                the Spread of COVID-19 in the United States? An Analysis using
+                                Transportation and Weather Data," <i>International Conference
+                                on Social Computing, Behavioral-Cultural Modeling &amp;
+                                Prediction and Behavior Representation in Modeling and
+                                Simulation (SBP-BRiMS)</i>, Virtual, July 2021.
+                            </li>
+                            <li>Xupin Zhang, Hanjia Lyu and Jiebo Luo, "Understanding the
+                                Hoarding Behaviors duringthe COVID-19 Pandemic using Large Scale
+                                Social Media Data," Working Paper, <i>I</i><i>nternational
+                                Conference on Social Computing, Behavioral-Cultural Modeling
+                                &amp; Prediction and Behavior Representation in Modeling and
+                                Simulation (SBP-BRiMS)</i>, Virtual, July 2021.
+                            </li>
+                            <li>Ziqi Tang, Yutong Wang and Jiebo Luo, "Are Top School Students
+                                More Critical of Their Professors? Mining Comments on
+                                RateMyProfessors.com," Working Paper,<i> International
+                                Conference on Social Computing, Behavioral-Cultural Modeling
+                                &amp; Prediction and Behavior Representation in Modeling and
+                                Simulation (SBP-BRiMS)</i>, Virtual, July 2021.
+                            </li>
+                            <li>Xiyang Zhang, Yu Wang, Hanjia Lyu, Yipeng Zhang, Yubao Liu,
+                                Jiebo Luo, "The Influence of COVID-19 on people's Well-Being:
+                                Big Data Methods for Capturing Working Adults' Well-being and
+                                Protective Factors Nationwide," <i>Frontiers in Psychology</i>,
+                                2021.
+                            </li>
+                            <li>Yipeng Zhang, Hanjia Lyu. Yubao Liu. Xiyang Zhang, Yu Wang,
+                                Jiebo Luo, "Monitoring Depression Trend on Twitter during the
+                                COVID-19 Pandemic: Observational Study," <i>Journal of Medical
+                                Internet Research Infodemiology</i>, 2021.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2020", e)}>2020</button>
                     <div id="sm-2020" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Li Sun*, Haoqi Zhang*, Songyang Zhang, and Jiebo Luo,
+                                "Content-based Analysis of the Cultural Differences between
+                                TikTok and Douyin," Special Session on Intelligent Data Mining,
+                                <i>IEEE International Conference on Big Data</i>, Atlanta, GA,
+                                December 2020.
+                            </li>
+                            <li>Neil Yeung, Jonathan Lai, and Jiebo Luo, "Face Off: Polarized
+                                Public Opinions on Personal Face Mask Usage during the COVID-19
+                                Pandemic," Special Session on Intelligent Data Mining, <i>IEEE
+                                International Conference on Big Data</i>, Atlanta, GA,
+                                December 2020.
+                            </li>
+                            <li>Wei Wu*, Jinlong Ruan*, and Jiebo Luo, "Stock Price Prediction
+                                Under Anomalous Circumstances," Special Session on Intelligent
+                                Data Mining, <i>IEEE International Conference on Big Data</i>,
+                                Atlanta, GA, December 2020.
+                            </li>
+                            <li>Shuaidong Pan*, Faner Lin*, and Jiebo Luo, "Do Sports and
+                                Politics Mix? Cross-Analysis of Fan Bases of Major League Sports
+                                and Presidential Candidates," <i>IEEE/ACM International
+                                Conference on Advances in Social Networks Analysis and Mining</i>
+                                (ASONAM), 2020.
+                            </li>
+                            <li>Viet Duong, Phu Pham, Tongyu Yang, Yu Wang and Jiebo Luo, "The
+                                Ivory Tower Lost: How College Students Respond Differently than
+                                the General Public to the COVID-19 Pandemic," <i>IEEE/ACM
+                                International Conference on Advances in Social Networks
+                                Analysis and Mining</i> (ASONAM), 2020.
+                            </li>
+                            <li>Luoying Yang, Zhou Xu, Jiebo Luo, "Measuring Female
+                                Representation and Impact in Films over Time," <i>ACM
+                                Transactions on Data Science</i>, in press.
+                            </li>
+                            <li>Hanjia Lyu, Long Chen, Yu Wang, Jiebo Luo, "Sense and
+                                Sensibility: Characterizing Social Media Users Regarding the Use
+                                of Controversial Terms for COVID-19," <i>IEEE Transactions on
+                                Big Data</i>, available online.
+                            </li>
+                            <li>Xinyi Lu, Long Chen, Jianbo Yuan, Joyce Luo, Zidian Xie, Jiebo
+                                Luo, Dongmei Li, "E-cigarette Flavors and Their Perceptions on
+                                Social Media: Observational Study," <i>Journal of Medical
+                                Internet Research</i>, Vol 22, No 6, 2020.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2019", e)}>2019</button>
                     <div id="sm-2019" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Shuaidong Pan, Tianran Hu, Shujing Sun, Jianbo Yuan, and Jiebo
+                                Luo, "Help Oneself in Helping the Others: The Ecology of Online
+                                Support Groups," <i>IEEE International Conference on Big Data</i>,
+                                Los Angeles, CA, December 2019.
+                            </li>
+                            <li>Yingtong Dou, Weijian Li, Zhirong Liu, Zhenhua Dong, Jiebo Luo
+                                and Philip Yu, "Uncovering Download Fraud Activities in Mobile
+                                App Market," <i>IEEE/ACM International Conference on Advances
+                                in Social Networks Analysis and Mining</i> (ASONAM),
+                                Vancouver, Canada, August 2019.
+                            </li>
+                            <li>Yuan Liu, Zhongwei Cheng, Jie Liu, Bourhan Yassin, Zhe Nan,
+                                Jiebo Luo, "AI for Earth: Rainforest Conservation by Acoustic
+                                Surveillance," Workshop on Data Mining and AI for Conservation,
+                                <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+                                (KDD)</i>, Anchorage, AK, August 2019.
+                            </li>
+                            <li>Tianran Hu, Yinglong Xia, Jiebo Luo, "To Return or to Explore:
+                                Modelling Human Mobility and Dynamics in Cyberspace," <i>The
+                                Web Conference (formerly WWW)</i>, San Francisco, CA, May
+                                2019.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2018", e)}>2018</button>
                     <div id="sm-2018" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Zhongping Zhang, Tianlang Chen, Zheng Zhou, Jiaxin Li, and
+                                Jiebo Luo, "How to Become Instagram Famous: Post Popularity
+                                Prediction with Dual-Attention," <i>IEEE International
+                                Conference on Big Data</i>, Seattle, WA, December 2018.
+                            </li>
+                            <li>Tianlang Chen, Yuxiao Chen, Han Guo, and Jiebo Luo, "You Type
+                                a Few Words and We Do the Rest: Image Recommendation for Social
+                                Multimedia Posts," <i>IEEE International Conference on Big Data</i>,
+                                Seattle, WA, 2018.
+                            </li>
+                            <li>Benjamin Kane and Jiebo Luo, "Do the Communities We Choose
+                                Shape our Political Beliefs? A Study of the Politicization of
+                                Topics in Online Social Groups," International Workshop on Big
+                                Social Media Data Management and Analysis, <i>IEEE
+                                International Conference on Big Data</i>, Seattle, WA,
+                                December 2018.
+                            </li>
+                            <li>Yuxiao Chen*, Jianbo Yuan*, Quanzeng You, Jiebo Luo, "Twitter
+                                Sentiment Analysis via Bi-sense Emoji Embedding and
+                                Attention-based LSTM," <i>ACM Multimedia Conference</i>, Seoul,
+                                Korea, October 2018.
+                            </li>
+                            <li>Xuefeng Peng, Li-Kai Chi and Jiebo Luo, "The Effect of Pets on
+                                Happiness: A Large-scale Multi-Factor Analysis using Social
+                                Multimedia," <i>ACM Transactions on Intelligent Systems and
+                                Technology</i> (TIST) 9(5), 2018. 
+                            </li>
+                            <li>Tianran Hu, Jiebo Luo and Wei Liu, "Life in the 'Matrix':
+                                Human Mobility Patterns in the Cyber Space," <i>AAAI
+                                International Conference on Web and Social Media (ICWSM)</i>,
+                                Stanford, CA, June 2018. (Full Paper Acceptance Rate 16%)
+                            </li>
+                            <li>Weijian Li*, Yuxiao Chen*, Tianran Hu, and Jiebo Luo, "Mining
+                                the Relationship between Emoji Usage Patterns and Personality,"
+                                <i>AAAI International Conference on Web and Social Media (ICWSM)</i>,
+                                Stanford, CA, June 2018.
+                            </li>
+                            <li>Tianlang Chen, Yuxiao Chen, Han Guo and Jiebo Luo, "When
+                                E-commerce Meets Social Media: Identifying Business on WeChat
+                                Moment Using Bilateral-Attention LSTM," <i>The Web Conference
+                                (WWW)</i>, Lyon, France, April 2018.
+                            </li>
+                            <li>Peijun Zhao, Jia Jia, Lexing Xie, Yongsheng An and Jiebo Luo,
+                                "Analyzing and Predicting Emoji Usages in Social Media," <i>The
+                                Web Conference (WWW)</i>, Lyon, France, April 2018.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2017", e)}>2017</button>
                     <div id="sm-2017" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yiming Pan, Xuefeng Peng, Tianran Hu, and Jiebo Luo,
+                                "Understanding What affects Career Progression Using LinkedIn
+                                and Twitter Data," Special Session on Intelligent Data Mining, 
+                                <i>IEEE Big Data Conference</i>, Boston, MA, December 2017.
+                            </li>
+                            <li>Xuefeng Peng, Yiming Pan, and Jiebo Luo, "Predicting High Taxi
+                                Demand Regions Using Social Media Check-ins," Special Session on
+                                Intelligent Data Mining, <i>IEEE Big Data Conference</i>,
+                                Boston, MA, December 2017.
+                            </li>
+                            <li>Zhiwei Jin, Juan Cao, Han Guo, Yongdong Zhang, Yu Wang and
+                                Jiebo Luo, "Multimodal Fusion with Recurrent Neural Networks for
+                                Rumor Detection on Microblogs," <i>ACM Multimedia Conference</i>, 
+                                Mountain View, CA, October 2017.
+                            </li>
+                            <li>Yu Wang, Jiebo Luo and Xiyang Zhang, "When Follow is Just One
+                                Click Away: Understanding Twitter Follow Behavior in the 2016
+                                U.S. Presidential Election," <i>International
+                                Conference on Social Informatics</i> (SocInfo), Oxford,
+                                England, Sept. 2017.
+                            </li>
+                            <li>Yu Wang, Yang Feng and Jiebo Luo, "How Polarized Have We
+                                Become? A Multimodal Classification of Trump Followers and
+                                Clinton Followers," <i>International Conference on Social Informatics</i> (SocInfo), Oxford,
+                                England, Sept. 2017. 
+                            </li>
+                            <li>Zhiwei Jin, Juan Cao, Han Guo, Yongdong Zhang, Yu Wang and
+                                Jiebo Luo, "Detection and Analysis of 2016 US Presidential
+                                Election Related Rumors on Twitter," <i>International Conference on Social Computing,
+                                Behavioral-Cultural Modeling &amp; Prediction and Behavior
+                                Representation in Modeling and Simulation </i>(SBP-BRiMS),
+                                Washington, DC, July 2017. 
+                            </li>
+                            <li>Yu Wang and Jiebo Luo, "Inferring Follower Preferences with
+                                Sparse Learning," <i>International
+                                Conference on Social Computing, Behavioral-Cultural Modeling
+                                &amp; Prediction and Behavior Representation in Modeling and
+                                Simulation</i> (SBP-BRiMS), Washington, DC, July 2017.
+                            </li>
+                            <li>Yu Wang and Jiebo Luo, "Gender Politics in the 2016
+                                Presidential Election: A Computer Vision Approach," <i>International Conference on Social
+                                Computing, Behavioral-Cultural Modeling &amp; Prediction and
+                                Behavior Representation in Modeling and Simulation</i>
+                                (SBP-BRiMS), July 2017.
+                            </li>
+                            <li>Quanzeng You, Jungseock Joo, Dario Garcia Garcia, Jiebo Luo,
+                                "Cultural Dynamics and Trends in Facebook Photographs," <i>AAAI International Conference on
+                                Web and Social Media (ICWSM)</i>, Montreal, Canada, May
+                                2017.
+                            </li>
+                            <li>Tianran Hu, Han Guo, Hao Sun, Thuy-vy Thi Nguyen, Jiebo Luo,
+                                "Spice up Your Chat: The Intentions and Sentiment Effects of
+                                Using Emojis," <i>AAAI International Conference on Web and Social Media (ICWSM)</i>,
+                                Montreal, Canada, May 2017.
+                            </li>
+                            <li>Tianran Hu, Ruihua Song, Xing Xie, Maya Abtahian, Philip Ding
+                                and Jiebo Luo, "A World of Difference: Divergent Word
+                                Interpretations among People," <i>AAAI International Conference on Web and Social Media
+                                (ICWSM)</i>, Montreal, Canada, May 2017.
+                            </li>
+                            <li>Rijul Magu, Kshitij Joshi and Jiebo Luo, "Decoding the Hate
+                                Code on Social Media," <i>AAAI International Conference on Web and Social Media (ICWSM)</i>,
+                                Montreal, Canada, May 2017.
+                            </li>
+                            <li>Yu Wang and Jiebo Luo, "Tactics and Tallies: A Study of the
+                                2016 U.S. Presidential Campaign Using Twitter 'Likes'," <i>AAAI International Conference on
+                                Web and Social Media (ICWSM)</i>, Second International
+                                Workshop on News and Public Opinion, Montreal, Canada, May 2017.
+                            </li>
+                            <li>Kuan-Ting Chen and Jiebo Luo, "When Fashion Meets Big Data:
+                                Discriminative Mining of Best Selling Clothing Features," <i>World Wide Web Conference</i>
+                                (WWW), Perth, Australia, April 2017.
+                            </li>
+                            <li>Tianlang Chen, Yuxiao Chen and Jiebo Luo, "A Selfie is Worth a
+                                Thousand Words: Mining Personal Patterns behind User
+                                Selfie-posting Behaviours," <i>World Wide Web Conference</i> (WWW), Perth, Australia, April
+                                2017.
+                            </li>
+                            <li>Tianran Hu, Eric Biglow, Henry Kautz, and Jiebo Luo, "Tales of
+                                Two Cities: Using Social Media to Understand Idiosyncratic
+                                Lifestyles in Distinctive Metropolitan Areas," Special Issue on
+                                Big Media Data: Understanding, Search, and Mining, <i>IEEE Transactions on Big Data</i>, 3(1): 55-66, 2017.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2016", e)}>2016</button>
                     <div id="sm-2016" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yiheng Zhou, Numair Sani, and Jiebo Luo, "Fine-grained Mining
+                                of Illicit Drug Use Patterns Using Social Multimedia Data from
+                                Instagram," Special Session on Intelligent Data Mining," <i>IEEE International Conference on
+                                Big Data (Big Data),</i> Washington, DC, December 2016.
+                            </li>
+                            <li>Jianbo Yuan, Walid Shalaby, Mohammed Korayem, David Lin,
+                                Khalifeh AlJadda and Jiebo Luo, "Solving Cold Start Problem in
+                                Large-scale Recommendation Engines: A Deep Learning Approach," <i>IEEE International Conference on
+                                Big Data (Big Data),</i> 2016.
+                            </li>
+                            <li>Yuchen Wu, Jianbo Yuan, Quanzeng You, and Jiebo Luo, "The
+                                Effect of Pets on Happiness: A Data-Driven Approach via
+                                Large-Scale Social Media," Special Session on Intelligent Data
+                                Mining, <i>IEEE International Conference on Big Data (Big Data),</i>
+                                Washington, DC, December 2016.
+                            </li>
+                            <li>Haofu Liao, Yuncheng Li, Tianran Hu, and Jiebo Luo, "Inferring
+                                Restaurant Styles by Mining Crowd Sourced Photos from
+                                User-Review Websites," <i>IEEE International Conference on Big Data (Big Data), 
+                                </i>Washington, DC, December 2016.
+                            </li>
+                            <li>Yu Wang, Yang Feng, Jiebo Luo, "Pricing the Woman Card: Gender
+                                Politics in 2016 US Presidential Election", <i>Workshop on Applications of Big
+                                Data in Computational Social Science, </i> <i>IEEE International Conference on
+                                Big Data (Big Data)</i>, Washington, DC, December 2016.
+                            </li>
+                            <li>Yu Wang, Yang Feng, Xiyang Zhang, and Jiebo Luo, "Inferring
+                                Voter Preferences behind Brexit," <i>Workshop on Application of Big Data for Computational
+                                Social Science, </i> <i>IEEE International Conference on Big Data (Big Data)</i>,
+                                Washington, DC, December 2016.
+                            </li>
+                            <li>Yang Feng, Jiebo Luo, "When Do Luxury Cars Hit Road? Findings
+                                by A Big Data Approach", <i>Workshop
+                                on Applications of Big Data in Computational Social
+                                Science, </i> <i>IEEE
+                                International Conference on Big Data (Big Data),</i>
+                                Washington, DC, December 2016. 
+                            </li>
+                            <li>Yu Wang, Yang Feng, Jiebo Luo, Xiyang Zhang, "Voting with
+                                Feet: Who are Leaving Hillary Clinton and Donald Trump?" <i>IEEE International Symposium on
+                                Multimedia</i>, San Jose, CA, December 2016. <strong>(Invited
+                                Paper)</strong>
+                            </li>
+                            <li>Tianran Hu, Ruihua Song, Xing Xie, Jiebo Luo, "Mining Shopping
+                                Patterns for Divergent Urban Regions by Incorporating Mobility
+                                Data", <i>ACM International Conference on Information and Knowledge Management (CIKM)</i>,
+                                Indianapolis, IN, October 2016.
+                            </li>
+                            <li>Kelly He, Lee Murphy, and Jiebo Luo, "Using Social Media to
+                                Promote STEM Education: Matching College Students with Role
+                                Models", <i>European Conference
+                                on Machine Learning and Principles and Practice of Knowledge
+                                Discovery (ECML/PKDD),</i> Riva del Garda, Italy,
+                                September 2016. <a href="http://arxiv.org/abs/1607.00405"> [arXiv]</a>
+                            </li>
+                            <li>Zhishen Pan, Kevin Chi, Timothy Dye, Jiebo Luo, "Towards
+                                Understanding How News Coverage Affect Public Perception During
+                                Epidemic Outbreaks",<i> International Conference on Social Computing,
+                                Behavioral-Cultural Modeling &amp; Prediction and Behavior
+                                Representation in Modeling and Simulation (SBP-BRiMS)</i>,
+                                Washington DC, June 2016.
+                            </li>
+                            <li>Yiheng Zhou, Numair Sani, Jiebo Luo, "Understanding Illicit
+                                Drug Use Behaviors by Mining Instagram," <i>International Conference on Social
+                                Computing, Behavioral-Cultural Modeling &amp; Prediction and
+                                Behavior Representation in Modeling and Simulation (SBP-BRiMS)</i>,
+                                Washington DC, June 2016. <a href="http://arxiv.org/abs/1604.07096"> [arXiv]</a>
+                            </li>
+                            <li>Tianran Hu, Haoyuan Xiao, Jiebo Luo, Thuy-vy Thi Nguyen, 
+                                "What the Language You Tweet Says About Your Occupation," <i>AAAI International Conference on
+                                Weblogs and Social Media (ICWSM)</i>, Cologne, Germany, May
+                                2016.
+                            </li>
+                            <li>Yu Wang, Yuncheng Li, Jiebo Luo, "Deciphering the 2016 U.S.
+                                Presidential Campaign in the Twitter Sphere: A Comparison of the
+                                Trumpists and Clintonists," <i>AAAI International Conference on Weblogs and Social Media (ICWSM)</i>,
+                                Cologne, Germany, May 2016. <a
+                                href="http://arxiv.org/abs/1603.03097"> [arXiv]</a>
+                            </li>
+                            <li>Yu Wang, Jiebo Luo, Richard G. Niemi, Yuncheng Li, Tianran Hu,
+                                "Catching Fire via 'Likes': Inferring Topic Preferences of Trump
+                                Followers on Twitter," <i>AAAI
+                                International Conference on Weblogs and Social Media (ICWSM),</i>
+                                Cologne, Germany, May 2016. <a href="http://arxiv.org/abs/1603.03099"> [arXiv]</a>
+                            </li>
+                            <li>Nabil Hossain, Tianran Hu, Roghayeh Feizi, Ann Marie White,
+                                Jiebo Luo, Henry Kautz, "Inferring Fine-grained Details on User
+                                Activities and Home Location from Social Media: Detecting
+                                Drinking-While-Tweeting Patterns in Communities," <i>AAAI International Conference on
+                                Weblogs and Social Media (ICWSM),</i> Cologne, Germany, May
+                                2016. <a href="http://arxiv.org/abs/1603.03181"> [arXiv]</a>
+                            </li>
+                            <li>Yu Wang, Yuncheng Li, Richard G. Niemi, Jiebo Luo, "To Follow
+                                or Not to Follow: Analyzing the Growth Patterns of the Trumpists
+                                on Twitter," <i>AAAI International Conference on Weblogs and Social Media (ICWSM),</i>
+                                Workshop on Social Media in the Newsroom, Cologne, Germany, May
+                                2016.
+                            </li>
+                            <li>Zhiwei Jin, Juan Cao, Yongdong Zhang, Jiebo Luo, "News
+                                Verification by Exploiting Conflicting Social Viewpoints in
+                                Microblogs," <i>The 30th AAAI Conference on Artificial Intelligence (AAAI),</i> Phoenix,
+                                AZ, January 2016. <a href="https://drive.google.com/drive/folders/0Byh2_bxvelahRHZwS1U4RG9wMHM"> [PDF]</a>
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2015", e)}>2015</button>
                     <div id="sm-2015" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Quanzeng You, Sumit Bhatia, Jiebo Luo, "A Picture Tells a
+                                Thousand Words About You! User Interest Profiling from
+                                User Generated Visual Content," <i>Signal
+                                Processing</i>, Special Issues on Big Data Meets Multimedia
+                                Analytics, December 2015. <a
+                        href="http://www.sciencedirect.com/science/article/pii/S0165168415003758"> [PDF]</a>
+                            </li>
+                            <li>Quanzeng You, Liangliang Cao, Jiebo Luo, "A Multifaceted
+                                Social Multimedia-based Approach to Prediction of Elections,", 
+                                <i>IEEE Transactions on Multimedia</i>, to appear, 2015. 
+                                <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7293668"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Tianran Hu, Adam Sadilek, Henry Kautz, and Jiebo Luo, "Home
+                                Location Inference from Sparse and Noisy Data: Models and
+                                Applications," <i>IEEE International Conference on Data Mining (ICDM), Workshop on
+                                Social Multimedia Data Mining</i>, Atlantic City, December
+                                2015.
+                            </li>
+                            <li>Yu Wang, Jianbo Yuan, and Jiebo Luo, "To Love or to Loathe:
+                                How is the World Reacting to China's Rise?" <i>IEEE International Conference on
+                                Data Mining (ICDM), Workshop on Big Media Data: Understanding,
+                                Search, and Mining</i>, Atlantic City, December 2015. <a
+                                href="http://arxiv.org/abs/1509.02596"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Ran Pang, Agustin Baretto, Henry Kautz, and Jiebo Luo,
+                                "Monitoring Adolescent Alcohol Use via Multimodal Data Analysis
+                                in Social Multimedia," Special Session on Intelligent Mining, 
+                                <i>IEEE Big Data Conference</i>,
+                                Santa Clara, CA, October 2015. <a
+                        href="https://drive.google.com/open?id=0Byh2_bxvelahcFJCRVZRbGhYanFOUzFkMUNBa052RE9XWTJR"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Yuncheng Li, Yang Cong, Tao Mei, and Jiebo Luo, "User-Curated
+                                Image Collections: Modeling and Recommendation,"<i> IEEE Big Data Conference,</i>
+                                Santa Clara, CA, October 2015. <a
+                                href="http://arxiv.org/abs/1509.05671"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Yu Wang, Jianbo Yuan, and Jiebo Luo, "America Tweets China: A
+                                Fine-Grained Analysis of the State and Individual
+                                Characteristics Regarding Attitudes towards China," <i>IEEE Big Data Conference</i>,
+                                Santa Clara, CA, October 2015. <a
+                        href="https://drive.google.com/open?id=0Byh2_bxvelahcjliM2MyMTNkd1ZnVVBPUEFlUUNrY0NZbFow"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Kuan-Ting Chen*, Kezhen Chen*, Peizhong Cong, Winston Hsu,
+                                Jiebo Luo, "Who are the Devils Wearing Prada in New York City?"
+                                <i>ACM Multimedia Conference</i>,
+                                October 2015. <a href="http://arxiv.org/pdf/1508.04785.pdf"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Xitong Yang, Yuncheng Li, Jiebo Luo, "Pinterest Board
+                                Recommendation for Twitter Users," <i>ACM Multimedia Conference</i>, October 2015. 
+                                <a href="http://arxiv.org/abs/1509.00511"> [PrePrintPDF]</a>
+                            </li>
+                            <li>Danning Zheng, Tianran Hu, Quanzeng You, and Jiebo Luo,
+                                "Towards Lifestyle Understanding: Predicting Home and Vacation
+                                Locations from User's Online Photo Collections," <i>AAAI International Conference on
+                                Weblogs and Social Media (ICWSM), </i>May 2015.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("sm-2010-2014", e)}>2010-2014</button>
                     <div id="sm-2010-2014" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Quanzeng You, Sumit Bhatia, Jiebo Luo, "The eyes of the
+                                beholder: Gender prediction using images posted in online social
+                                networks," <i>IEEE International Conference on Data Mining (ICDM), Workshop on Social
+                                Multimedia Data Mining</i>, December 2014. <a
+                        href="http://www.cs.rochester.edu/u/qyou/papers/gender_classification.pdf"> [PDF]</a>
+                            </li>
+                            <li>Simon Weber, Jiebo Luo, "What Makes An Open Code Popular in
+                                Github," <i>IEEE International Conference on Data Mining (ICDM), Workshop on Software Data
+                                Mining</i>, December 2014.
+                            </li>
+                            <li>Andrew Nocka, Danning Zheng, Tianran Hu, Jiebo Luo, "Moneyball
+                                for Academia: Towards Measuring and Maximizing Faculty
+                                Performance and Impact," <i>IEEE
+                                International Conference on Data Mining (ICDM), Workshop on
+                                Domain Dependent Data Mining</i>, December 2014. 
+                            </li>
+                            <li>Danning Zheng, Tianran Hu, Quanzeng You, and Jiebo Luo,
+                                "Inferring Home Location from User's Photo Collections based on
+                                Visual Content and Mobility Patterns," <i>ACM Multimedia Conference, Workshop on Geotagging in
+                                Multimedia (GeoMM)</i>, November 2014.
+                            </li>
+                            <li>Yuncheng Li, Jiebo Luo, Tao Mei, "Personalized Image
+                                Recommendation for Web Search Engine Users", <i>IEEE ICME</i>, July 2014. 
+                            </li>
+                            <li>Junhuan Zhu, Quanzeng You, Jiebo Luo and John R. Smith,
+                                "Towards Understanding the Effectiveness of Election Related
+                                Images in Social Media," <i>IEEE
+                                International Conference on Data Mining (ICDM), Workshop on
+                                Domain-driven Data Mining</i>, December 2013. 
+                                <a
+                        href="https://drive.google.com/file/d/0Byh2_bxvelahcFdmYkNWNnJMTEk/edit?usp=sharing"> [PDF]</a>
+                            </li>
+                            <li> Jianbo Yuan, Quanzeng You, and Jiebo Luo, "Are There
+                                Cultural Differences in Event Driven Information Propagation
+                                Over Social Media?" <i>ACM Multimedia Conference, International Workshop on
+                                Socially-Aware Multimedia (IWSAM)</i>, October 2013. <a
+                        href="https://drive.google.com/file/d/0Byh2_bxvelahdlZWenZ3VjlMXzQ/edit?usp=sharing"> [PDF]</a>
+                            </li>
+                            <li> Quanzeng You and Jiebo Luo, "Towards Social Imagematics:
+                                Sentiment Analysis in Social Multimedia," <i>ACM SIGKDD, Workshop on Multimedia
+                                Data Mining</i>, August 2013. <a
+                        href="https://docs.google.com/file/d/0Byh2_bxvelahemFxRjJhQlZwMDg/edit?usp=sharing"> [PDF]</a>
+                            </li>
+                            <li> Jianbo Yuan, Quanzeng You, Sean McDonough, and Jiebo
+                                Luo, "Sentribute: Image Sentiment Analysis from a Mid-level
+                                Perspective," <i>ACM SIGKDD,
+                                Workshop on Issues of Sentiment Discovery and Opinion
+                                Mining (WISDOM)</i>, August 2013. <a
+                        href="https://docs.google.com/file/d/0Byh2_bxvelaheE5oTUQ5elJPcXM/edit?usp=sharing"> [PDF]</a>
+                            </li>
+                            <li> Ge Ma and Jiebo Luo, "Is A Social Picture Worth 1000 Votes?
+                                Analyzing the Sentiment of Election Related Photos," <i>IEEE ICME</i>, July 2013.
+                            </li>
+                            <li> Xin Jin, Jie Yu, Jiawei Han, Jiebo Luo, "Reinforced retrieval
+                                in image-rich information networks via integration of link and
+                                content based similarities," <i>IEEE Transactions on Knowledge
+                                Discovery and Engineering</i>, 25(2): pp 448-460, Feb. 2013.
+                            </li>
+                            <li> Xin Jin, Cindy Lin, Jiebo Luo, Jiawei Han, "SocialSpamGuard:
+                                A Data Mining-based Spam Detection System for Social Media
+                                Networks," Demo Paper,<i> International Conference on Very
+                                Large Data Bases</i> (VLDB), Seattle, WA, August 2011.
+                            </li>
+                            <li> Xin Jin, Chi Wang, Jiebo Luo, Jiawei Han, "LikeMiner: A
+                                System for Mining the Power of 'Like' in Social Media Networks,"
+                                Demo Paper, <i>International Conference on Knowledge Discovery
+                                and Data Mining</i> (KDD), San Diego, CA, August 2011.
+                            </li>
+                            <li> Zhijun Yin, Liangliang Cao, Jiawei Han, Jiebo Luo, and Thomas
+                                Huang, "Diversified Trajectory Pattern Ranking in Geo-tagged
+                                Social Media," <i>SIAM Conference on Data Mining</i> (SDM),
+                                Mesa, AZ, April 2011.
+                            </li>
+                            <li> Jie Yu, Xin Jin, Jiawei Han, Jiebo Luo, "Collection-based
+                                sparse label propagation and its application to social group
+                                suggestion from photos," <i>ACM Transactions on Intelligent
+                                Systems and Technology</i>, 2(2): , February 2011.
+                            </li>
+                            <li>&nbsp;Xin Jin, Andrew Gallagher, Jiawei Han, Jiebo Luo,
+                                "Wisdom of Social Multimedia: Using Flickr for Prediction and
+                                Forecast," <i>ACM Multimedia Conference</i>, Brave and New
+                                Ideas Track, Firenze, Italy, October 2010. (Long Paper)
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -1063,99 +1718,313 @@ class Research extends React.Component{
                     <button className="accordion" onClick={(e) => openTab("ba-2022", e)}>2022</button>
                     <div id="ba-2022" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Wei Zhu, Jiebo Luo, "Federated Medical Image Analysis with
+                                Virtual Sample Synthesis," <i>International Conference on
+                                Medical Image Computing and Computer Assisted Interventions</i>
+                                (MICCAI), Singapore, September 2022.
+                            </li>
+                            <li>Wei Zhu, Andrew White, and Jiebo Luo, "Federated Learning of
+                                Molecular Properties in a Heterogeneous Setting," <i>Cell
+                                Patterns</i>, 2022.
+                            </li>
+                            <li>Nisreen Al-Jallad, Oriana Ly-Mapes, Peirong Hao, Jinlong Ruan,
+                                Ashwin Ramesh, Jiebo Luo, Tong Tong Wu, Timothy Dye, Noha
+                                Rashwan, Johana Ren, Hoonji Jang, Luis Mendez, Nora Alomier,
+                                Sherita Bullock, Kevin Fiscella, Jin Xiao, "Artificial
+                                intelligence-powered smartphone application, AICaries, improves
+                                at-home dental caries screening in children: moderated and
+                                unmoderated usability tests," <i>Plos Digital Health</i>, 2022.
+                            </li>
+                            <li>Wei Xiong, Neil Yeung, Shubo Wang, Liyun Wang, Jiebo Luo,
+                                "Breast Cancer Induced Bone Osteolysis Prediction Using Temporal
+                                Variational Auto-Encoders," Special Issue on AI for Advanced
+                                Biomedical Applications,<i> BME Frontiers</i>, 2022.
+                            </li>
+                            <li>Hanjia Lyu, Zihe Zheng, and Jiebo Luo, "Misinformation versus
+                                Facts: Understanding the Influence of News Regarding COVID-19
+                                Vaccines on Vaccine Uptake," <i>Health Data Science</i>, 2022.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2021", e)}>2021</button>
                     <div id="ba-2021" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Jin Xiao, Jiebo Luo, Oriana Ly-Mapes, Tong Tong Wu, Timothy
+                                Dye, Nisreen Al Jallad, Peirong Hao, Jinlong Ruan, Sherita
+                                Bullock, Kevin Fiscella, "Assess A Smartphone App (AICaries)
+                                that Uses Artificial Intelligence to Detect Dental Caries in
+                                Children and Provide Interactive Oral Health Education: Protocol
+                                for Design and Usability Testing," <i>JMIR Research Protocols</i>,
+                                2021.
+                            </li>
+                            <li>Hanjia Lyu, Junda Wang, Wei Wu, Viet Duong, Xiyang Zhang,
+                                Timothy D. Dye, and Jiebo Luo, "Social Media Study of Public
+                                Opinions on Potential COVID-19 Vaccines: Informing Dissent,
+                                Disparities, and Dissemination," <i>Intelligent Medicine</i>,
+                                2021.
+                            </li>
+                            <li>Wei Wu, Hanjia Lyu, Jiebo Luo, "Characterizing Discourse about
+                                COVID-19 Vaccines: A Reddit Version of the Pandemic Story," <i>Health Data Science</i>, 2021.
+                            </li>
+                            <li>Xiyang Zhang, Yu Wang, Hanjia Lyu, Yipeng Zhang, Yubao Liu,
+                                Jiebo Luo, "The Influence of COVID-19 on people's Well-Being:
+                                Big Data Methods for Capturing Working Adults' Well-being and
+                                Protective Factors Nationwide," <i>Frontiers in Psychology</i>,
+                                2021. 
+                            </li>
+                            <li>Yipeng Zhang, Hanjia Lyu. Yubao Liu. Xiyang Zhang, Yu Wang,
+                                Jiebo Luo, "Monitoring Depression Trend on Twitter during the
+                                COVID-19 Pandemic: Observational Study," <i>Journal of Medical
+                                Internet Research Infodemiology</i>, 2021.
+                            </li>
+                            <li>Cheng Peng, Haofu Liao, Gina Wong, Jiebo Luo, S. Kevin Zhou,
+                                Rama Chellappa, "XraySyn: Realistic View Synthesis from a Single
+                                Radiograph Through CT Prior," <i>The 35th AAAI Conference on
+                                Artificial Intelligence</i> (AAAI), February 2021.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2020", e)}>2020</button>
                     <div id="ba-2020" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Weijian Li, Wei Zhu, Ray Dorsey, Jiebo Luo, "Predicting
+                                Parkinson's Disease with Multimodal Irregularly Collected
+                                Longitudinal Smartphone Data," <i>IEEE International Conference
+                                on Data Mining</i> (ICDM), November 2020.
+                            </li>
+                            <li>Zhou Zhuang, Johnson V. John, Haofu Liao, Jiebo Luo, Paul
+                                Rubery, Addisu Mesfin, Sunil Kumar Boda, Jingwei Xie and Xinping
+                                Zhang, ''Electrospray-Enabled Peptide Coating of Structural Bone
+                                Allografts for Enhanced Repair and Reconstruction of Femoral
+                                Segmental Defects,'' <i>ACS Biomaterials Science &amp;
+                                Engineering</i>, in press.
+                            </li>
+                            <li>Wei Zhu, Haofu Liao, Wenbin Li, Weijian Li, Jiebo Luo,
+                                "Alleviating the Incompatibility between Cross Entropy Loss and
+                                Episode Training for Few-shot Skin Disease Classification," <i>International Conference on Medical Image Computing and
+                                Computer Assisted Interventions </i>(MICCAI), Lima, Peru,
+                                October 2020.
+                            </li>
+                            <li>Yipeng Zhang, Haofu Liao, Jin Xiao, Nisreen Al Jallad, Jiebo
+                                Luo, "A Smartphone-based System for Real-time Early Childhood
+                                Caries Diagnosis," <i>Workshop on Perinatal, Preterm and
+                                Paediatric Image Analysis</i>, <i>International Conference on
+                                Medical Image Computing and Computer Assisted Interventions</i>
+                                (MICCAI), October 2020.
+                            </li>
+                            <li>Ray Dorsey, Larsson Omberg, Emma Waddell, Jamie L. Adams, Roy
+                                Adams, Mohammad Rafayet Ali, Katherine Amodeo, Abigail Arky,
+                                Erika F. Augustine, Karthik Dinesh, Mohammed Ehsan Hoque,
+                                Alistair M. Glidden, Stella Jensen-Roberts, Zachary Kabelac,
+                                Dina Katabi, Karl Kieburtz, Daniel R. Kinel, Max A. Little,
+                                Karlo J. Lizarraga, Taylor Myers, Sara Riggare, Spencer Z.
+                                Rosero, Suchi Saria, Giovanni Schifitto, Ruth B. Schneider,
+                                Gaurav Sharma, Ira Shoulson, E. Anna Stevenson, Christopher G.
+                                Tarolli, Jiebo Luo, Michael P. McDermott, "Deep Phenotyping of
+                                Parkinson's Disease," <i>Journal of Parkinson's Disease</i>, in
+                                press.
+                            </li>
+                            <li>Long Chen, Xinyi Lu, Jianbo Yuan, Joyce Luo, Jiebo Luo, Zidian
+                                Xie, and Dongmei Li, "A Social Media Study on Associations of
+                                Flavored E-cigarette with Health Symptoms: Observational study,"
+                                <i>Journal of Medical Internet Research</i>, Vol 22, No 6, 2020.
+                            </li>
+                            <li>Haofu Liao, Wei-An Lin, S. Kevin Zhou, Jiebo Luo, "ADN:
+                                Artifact Disentanglement Network for Unsupervised Metal Artifact
+                                Reduction," <i>IEEE Transactions on Medical Imaging </i>(TMI),
+                                Volume 39, Issue 3, 2020.
+                            </li>
+                            <li>Jianbo Yuan, Zhiwei Jin, Han Guo, Hongxia Jin, Xianchao Zhang,
+                                Tristram Smith, and Jiebo Luo. "Constructing biomedical
+                                domain-specific knowledge graph with minimum supervision." 
+                                <i>Knowledge and Information Systems</i> 62(1): 1-20, 2020.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2019", e)}>2019</button>
                     <div id="ba-2019" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Jianbo Yuan, Haofu Liao, Rui Luo, Jiebo Luo, "Automated
+                                Radiology Report Generation via Multi-view Image Fusion and
+                                Medical Concept Enrichment," <i>International Conference
+                                    on Medical Image Computing and Computer Assisted
+                                Interventions </i>(MICCAI), Shenzhen, China, October 2019.
+                            </li>
+                            <li>Haofu Liao, Wei-An Lin, Zhimin Huo, William Sehnert, Levon
+                                Vogelsang, Kevin Zhou, Jiebo Luo, "Generative Mask Pyramid
+                                Network for CT/CBCT Metal Artifact Reduction with Joint
+                                Projection-Sinogram Correction," <i>International
+                                    Conference on Medical Image Computing and
+                                Computer Assisted Interventions</i> (MICCAI), Shenzhen, China,
+                                October 2019.
+                            </li>
+                            <li>Haofu Liao, Wei-An Lin, Jianbo Yuan, S. Kevin Zhou, Jiebo Luo,
+                                "Artifact Disentanglement Network for Unsupervised Metal
+                                Artifact Reduction," <i>International Conference on Medical 
+                                Image Computing and Computer Assisted Interventions </i>(MICCAI),
+                                Shenzhen, China, October 2019. <strong>(Young Scientist Honorable
+                                Mention)</strong> <a href="https://arxiv.org/pdf/1906.01806.pdf"> [PDF]</a> 
+                                <a href="https://github.com/liaohaofu/adn"> [Project Page]</a>
+                            </li>
+                            <li>Weijian Li, Viet-Duy Nguyen, Haofu Liao, Matthew Wilder, Ke
+                                Cheng, Jiebo Luo, "Patch Transformer for Multi-tagging Whole
+                                Slide Histopathology Images," <i>International Conference on 
+                                Medical Image Computing and Computer Assisted
+                                Interventions </i>(MICCAI), Shenzhen, China, October 2019.
+                            </li>
+                            <li>Sen Zhang, Changzheng Zhang, Lanjun Wang, Cixing Li, Dandan
+                                Tu, Rui Luo, Guo-Jun Qi, Jiebo Luo, "MSAFusionNet: Multiple
+                                Subspace Attention Based Deep Multi-modal Fusion Network," <i>Springer LNCS Proceedings of the 10th International Workshop on
+                                Machine Learning in Medical Imaging (MLMI), in
+                                conjunction with MICCAI</i>, Shenzhen, China, October 2019.
+                            </li>
+                            <li>Dong Liu, Changzheng Zhang, Lanjun Wang, Yaoxin Li, Xiaoshi
+                                Chen, Rui Luo, Shuanlong Che, Hehua Liang, Yinghua Li, Si Liu,
+                                Dandan Tu, Guo-Jun Qi, Pifu Luo, Jiebo Luo, "DCCL: A Benchmark
+                                for Cervical Cytology Analysis," <i>Springer LNCS Proceedings
+                                of the 10th International Workshop on Machine Learning in
+                                Medical Imaging (MLMI), in conjunction with MICCAI</i>,
+                                Shenzhen, China, October 2019. 
+                            </li>
+                            <li>Zidian Xie, Olga Nikolayeva, Dongmei Li, Jiebo Luo, "Building
+                                Risk Prediction Models for Type 2 Diabetes Using Machine
+                                Learning Techniques," <i>Preventing Chronic Disease</i>, in
+                                press.
+                            </li>
+                            <li>Wei-An Lin*, Haofu Liao*, Cheng Peng, Xiaohang Sun, Jingdan
+                                Zhang, Jiebo Luo, Rama Chellappa, S. Kevin Zhou, "DuDoNet: Dual
+                                Domain Network for CT Metal Artifact Reduction," <i>IEEE
+                                Conference on Computer Vision and Pattern Recognition </i>(CVPR), Long Beach, CA, June 2019.
+                            </li>
+                            <li>Haofu Liao, Wei-An Lin, Jiarui Zhang, Jingdan Zhang, Jiebo
+                                Luo, S. Kevin Zhou, "Multiview 2D/3D Rigid Registration via a
+                                Point-Of-Interest Network for Tracking and Triangulation," 
+                                <i>IEEE Conference on Computer Vision and Pattern Recognition </i>(CVPR), Long Beach, CA, June 2019.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2018", e)}>2018</button>
                     <div id="ba-2018" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>S Weisenthal, C Quill, J Luo, H Kautz, S Farooq, M Zand, "A
+                                machine learning pipeline to predict acute kidney injury (AKI)
+                                in patients without AKI in their most recent hospitalization," <i>Journal
+                                of Clinical and Translational Science</i>, 2018.
+                            </li>
+                            <li>Haofu Liao, Zhimin Huo, James Sehnert, Kevin S, Zhou, Jiebo
+                                Luo, "Adversarial Sparse-View CBCT Artifact Reduction," <i>International Conference on Medical Image Computing and Computer Assisted
+                                Intervention</i> (MICCA), Granada, Spain, September 2018. <strong>(oral presentation)</strong>
+                            </li>
+                            <li>Haofu Liao, Yucheng Tang, Gareth Funka-Lea, Jiebo Luo, Kevin
+                                S. Zhou, "More Knowledge is Better: Cross-Modality Volume
+                                Completion and 3D+2D Segmentation for Intracardiac
+                                Echocardiography Contouring," <i>International Conference on
+                                Medical Image Computing and Computer Assisted Intervention</i>
+                                (MICCA), Granada, Spain, September 2018.
+                            </li>
+                            <li>Haofu Liao, Addisu Mesfin, Jiebo Luo, "Joint Vertebrae
+                                Identification and Localization in Spinal CT Images by Combining
+                                Short- and Long-Range Contextual Information," <i>IEEE
+                                Transactions on Medical Imaging</i> 37(5): 1266-1275,
+                                2018.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2017", e)}>2017</button>
                     <div id="ba-2017" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Xuefeng Peng, Jiebo Luo, Catherine Glenn, Li-Kai Chi, and
+                                Jingyao Zhan, "Sleep-deprived Fatigue Pattern Analysis using
+                                Large-Scale Selfies from Social Media," Special Session on
+                                Intelligent Data Mining,<i> IEEE Big Data Conference</i>,
+                                Boston, MA, December 2017.
+                            </li>
+                            <li>Yiheng Zhou, Jingyao Zhan and Jiebo Luo, "Predicting Multiple
+                                Risky Behaviors via Multimedia Content," <i>International Conference on Social
+                                Informatics </i>(SocInfo), Oxford, England, September
+                                2017.
+                            </li>
+                            <li>Xitong Yang, Jiebo Luo, "Tracking Illicit Drug Dealing and
+                                Abuse on Instagram using Multimodal Analysis," <i>ACM Transactions on Intelligent
+                                Systems and Technology</i>, 8(4): 58:1-58:15, August 2017.
+                            </li>
+                            <li>Xuefeng Peng and Jiebo Luo, "Large-Scale Sleep Condition
+                                Analysis Using Selfies from Social Media," <i>International Conference on Social
+                                Computing, Behavioral-Cultural Modeling &amp; Prediction and
+                                Behavior Representation in Modeling and Simulation (SBP-BRiMS)</i>,
+                                Washington, DC, July 2017. 
+                            </li>
+                            <li>Jianbo Yuan, Chester Holtz, Tristram H Smith, Jiebo Luo,
+                                "Autism Spectrum Disorder Detection from Semi-Structured and
+                                Unstructured Medical Data," <i>EURASIP
+                                Journal on Bioinformatics and Systems Biology, </i>2017:3, February 2017.
+                            </li>
+                            <li>Yiheng Zhou, Catherine Glenn, Jiebo Luo, "Understanding and
+                                Predicting Multiple Risky Behaviors from Social Media," <i>AAAI 2017 Joint Workshop on Health
+                                Intelligence,</i> San Francisco, CA, February 2017.
+                            </li>
+                            <li>Haofu Liao, Jiebo Luo, "A Deep Multitask Learning Approach to
+                                Skin Lesion Classification," <i>AAAI 2017 Joint Workshop on Health Intelligence</i>, 
+                                San Francisco, CA, February 2017.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2016", e)}>2016</button>
                     <div id="ba-2016" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Haofu Liao, Yuncheng Li, Jiebo Luo, "Skin Disease 
+                                Classification versus Skin Lesion Characterization: Achieving
+                                Robust Diagnosis using Multi-label Deep Neural Networks", <i>International Conference on
+                                Pattern Recognition (ICPR)</i>, Cancun, Mexico, December
+                                2016.
+                            </li>
+                            <li>Kuan Wang, Jiebo Luo, "Detecting Visually Observable Disease
+                                Symptoms from Faces", <i>1ST International Workshop on Biomedical Informatic with
+                                Optimization and Machine Learning (BOOM)</i>, in
+                                conjunction with IJCAI 2016, New York City, New York, July
+                                2016. <strong>(Best Paper Runner-Up)</strong> 
+                            </li>
+                            <li>Chunlan Huang, Vincent P. Ness, Xiaochuan Yang, Hongli Chen,
+                                Jiebo Luo, Edward B Brown and Xinping Zhang, "Spatiotemporal
+                                Analyses of Osteogenesis and Angiogenesis via Intravital Imaging
+                                in Cranial Bone Defect Repair," <i>Journal of Bone and Mineral Research</i>,
+                                available in PubMed.
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-2015", e)}>2015</button>
                     <div id="ba-2015" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Dawei Zhou, Jiebo Luo, Vincent Silenzio, Yun Zhou, Glenn Currier, and Henry Kautz, 
+                                "Tackling Mental Health by Integrating Unobtrusive Multimodal sensing," 
+                                <i>the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI)</i>, 
+                                Austin, TX, January 25-30, 2015.
+                            </li>
+                            <li>Junhuan Zhu, Jiebo Luo, Yousuf Khalifar, "Computerized Grading of Cataract 
+                                Surgery from Videos," <i>Machine Vision and Applications</i>, 26(1): 115-125, 2015.
+                            </li>
+                            <li>Yang Cong, Ji Liu, Jiebo Luo, "Deep Sparse Feature Selection for Computer Aided 
+                                Endoscopy Diagnosis," <i>Pattern Recognition</i>, 48(3): 907-917, 2015.    
+                            </li>
                         </ul>
                     </div>
 
                     <button className="accordion" onClick={(e) => openTab("ba-pre-2015", e)}>Pre-2015</button>
                     <div id="ba-pre-2015" className="panel">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Tianli Yu, Jiebo Luo, Narendra Ahuja, "Search strategies for shape regularized 
+                                active contour," <i>Computer Vision and Image Understanding</i>, 113(10): 1053-1063, 2009.
+                            </li>
+                            <li>Hui Luo, Jiebo Luo, "Robust online orientation correction for radiographs in PACS environments," 
+                                <i>IEEE Transactions on Medical Imaging</i>, 25(10): 1370-1379, 2006.
+                            </li>
                         </ul>
                     </div>
                 </div>
