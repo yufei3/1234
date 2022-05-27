@@ -651,6 +651,16 @@ a{
 	margin-bottom: 10px;
 }
 
+/* Resources Page Format */
+#splideArea{
+	background-color: rgba(238, 238, 215, 0.336);
+	min-height: 350px;
+}
+
+.resources-h3{
+	text-align: center;
+}
+
 
 
 

@@ -10,6 +10,9 @@ import Footer from "./components/Footer";
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import './App.css';
+import '@splidejs/react-splide/css';
+import '@splidejs/react-splide/css/skyblue';
+//import '@splidejs/react-splide/css/sea-green';
 
 function App() {
   return (
