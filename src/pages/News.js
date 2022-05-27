@@ -19,6 +19,18 @@ class News extends React.Component{
             </Helmet>
 
             <h3>News</h3>
+            <div class="news-container">
+                <div class="slider">
+                    <div class="box1 box">
+                        <div class="bg">
+                            <div class="details">
+                               I'm here. 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </main>);
     }
 }
