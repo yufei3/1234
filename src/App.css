@@ -653,13 +653,52 @@ a{
 
 /* Resources Page Format */
 #splideArea{
-	background-color: rgba(238, 238, 215, 0.336);
+	/* background-color: rgba(238, 238, 215, 0.336); */
 	min-height: 350px;
 }
 
 .resources-h3{
 	text-align: center;
 }
+
+.resources-splide{
+	width: 600px;
+	height: 400px;
+}
+
+.resources-splide h4{
+	font-size: 25px;
+	text-shadow: 2px 1px 1px #444;
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	padding-top: 20px; 
+}
+
+.resources-splide p{
+	font-size: 16px;
+	color: white;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: auto;
+}
+
+#splide-1 {
+	background-image: url("https://s2.loli.net/2022/05/30/im5jdgzfR2NhMJT.png");
+}
+
+#splide-2 {
+	background-image: url("https://s2.loli.net/2022/05/30/VkldJfXewLA2IPO.png");
+}
+
+#splide-3 {
+	background-image: url("https://s2.loli.net/2022/05/30/ih7mr5Vx8JRKbB9.png");
+}
+
+#splide-4 {
+	background-image: url("https://s2.loli.net/2022/05/30/kszx9fudq38AVYw.png");
+}
+
 
 
 
