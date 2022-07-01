@@ -52,21 +52,21 @@ class News extends React.Component{
 
             <h3>News</h3>
             <div class="news-container">
-                <year>2022
+                <year><div class="title">2022</div>
                     <div class="container">
                         <div class="grid">
-                            <div class="cell" id="1">1</div>
-                            <div class="cell" id="2">2</div>
-                            <div class="cell" id="3">3</div>
-                            <div class="cell" id="4">4</div>
-                            <div class="cell" id="5">5</div>
-                            <div class="cell" id="6">6</div>
-                            <div class="cell" id="7">7</div>
-                            <div class="cell" id="8">8</div>
-                            <div class="cell" id="9">9</div>
-                            <div class="cell" id="9">10</div>
-                            <div class="cell" id="9">11</div>
-                            <div class="cell" id="9">12</div>
+                            <div class="cell" id="1"><a href="#slides__1">1</a></div>
+                            <div class="cell" id="2"><a href="#slides__2">2</a></div>
+                            <div class="cell" id="3"><a href="#slides__3">3</a></div>
+                            <div class="cell" id="4"><a href="#slides__4">4</a></div>
+                            <div class="cell" id="5"><a href="#slides__5">5</a></div>
+                            <div class="cell" id="6"><a href="#slides__6">6</a></div>
+                            <div class="cell" id="7"><a href="#slides__7">7</a></div>
+                            <div class="cell" id="8"><a href="#slides__8">8</a></div>
+                            <div class="cell" id="9"><a href="#slides__9">9</a></div>
+                            <div class="cell" id="10"><a href="#slides__10">10</a></div>
+                            <div class="cell" id="11"><a href="#slides__11">11</a></div>
+                            <div class="cell" id="12"><a href="#slides__12">12</a></div>
                         </div>              
                     </div>
                 </year>
