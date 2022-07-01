@@ -74,83 +74,83 @@ class News extends React.Component{
                 <div class="slider-container">
                     <div class="slider">
                         <div class="slides">
-                        <div id="slides__1" class="slide">
+                        <div id="slides__2022_1" class="slide">
                             <span class="slide__text">1</span>
-                            <a class="slide__prev" href="#slides__12" title="Next"></a>
-                            <a class="slide__next" href="#slides__2" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_12" title="Next"></a>
+                            <a class="slide__next" href="#slides__2022_2" title="Next"></a>
                         </div>
-                        <div id="slides__2" class="slide">
+                        <div id="slides__2022_2" class="slide">
                             <span class="slide__text">2
                             02/01/2022: Application is open for NSF Summer REU on Imaging in Medicine and Biology for Underrepresented Minorities at University of Rochester</span>
 
-                            <a class="slide__prev" href="#slides__1" title="Prev"></a>
-                            <a class="slide__next" href="#slides__3" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_1" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_3" title="Next"></a>
                         </div>
-                        <div id="slides__3" class="slide">
+                        <div id="slides__2022_3" class="slide">
                             <span class="slide__text">3</span>
-                            <a class="slide__prev" href="#slides__2" title="Prev"></a>
-                            <a class="slide__next" href="#slides__4" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_2" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_4" title="Next"></a>
                         </div>
-                        <div id="slides__4" class="slide">
+                        <div id="slides__2022_4" class="slide">
                             <span class="slide__text">4</span>
-                            <a class="slide__prev" href="#slides__3" title="Prev"></a>
-                            <a class="slide__next" href="#slides__5" title="Prev"></a>
+                            <a class="slide__prev" href="#slides__2022_3" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_5" title="Prev"></a>
                         </div>
-                        <div id="slides__5" class="slide">
+                        <div id="slides__2022_5" class="slide">
                             <span class="slide__text">5</span>
-                            <a class="slide__prev" href="#slides__4" title="Prev"></a>
-                            <a class="slide__next" href="#slides__6" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_4" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_6" title="Next"></a>
                         </div>
-                        <div id="slides__6" class="slide">
+                        <div id="slides__2022_6" class="slide">
                             <span class="slide__text">6</span>
-                            <a class="slide__prev" href="#slides__5" title="Prev"></a>
-                            <a class="slide__next" href="#slides__7" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_5" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_7" title="Next"></a>
                         </div>
-                        <div id="slides__7" class="slide">
+                        <div id="slides__2022_7" class="slide">
                             <span class="slide__text">7</span>
-                            <a class="slide__prev" href="#slides__6" title="Prev"></a>
-                            <a class="slide__next" href="#slides__8" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_6" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_8" title="Next"></a>
                         </div>
-                        <div id="slides__8" class="slide">
+                        <div id="slides__2022_8" class="slide">
                             <span class="slide__text">8</span>
-                            <a class="slide__prev" href="#slides__7" title="Prev"></a>
-                            <a class="slide__next" href="#slides__9" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_7" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_9" title="Next"></a>
                         </div>
-                        <div id="slides__9" class="slide">
+                        <div id="slides__2022_9" class="slide">
                             <span class="slide__text">9</span>
-                            <a class="slide__prev" href="#slides__8" title="Prev"></a>
-                            <a class="slide__next" href="#slides__10" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_8" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_10" title="Next"></a>
                         </div>
-                        <div id="slides__10" class="slide">
+                        <div id="slides__2022_10" class="slide">
                             <span class="slide__text">10</span>
-                            <a class="slide__prev" href="#slides__9" title="Prev"></a>
-                            <a class="slide__next" href="#slides__11" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_9" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_11" title="Next"></a>
                         </div>
-                        <div id="slides__11" class="slide">
+                        <div id="slides__2022_11" class="slide">
                             <span class="slide__text">11</span>
-                            <a class="slide__prev" href="#slides__10" title="Prev"></a>
-                            <a class="slide__next" href="#slides__12" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_10" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_12" title="Next"></a>
                         </div>
-                        <div id="slides__12" class="slide">
+                        <div id="slides__2022_12" class="slide">
                             <span class="slide__text">12</span>
-                            <a class="slide__prev" href="#slides__11" title="Prev"></a>
-                            <a class="slide__next" href="#slides__1" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2022_11" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2022_1" title="Next"></a>
                         </div>
                         </div>
 
                         <div class="slider__nav">
-                        <a class="slider__navlink" href="#slides__1"></a>
-                        <a class="slider__navlink" href="#slides__2"></a>
-                        <a class="slider__navlink" href="#slides__3"></a>
-                        <a class="slider__navlink" href="#slides__4"></a>
-                        <a class="slider__navlink" href="#slides__5"></a>
-                        <a class="slider__navlink" href="#slides__6"></a>
-                        <a class="slider__navlink" href="#slides__7"></a>
-                        <a class="slider__navlink" href="#slides__8"></a>
-                        <a class="slider__navlink" href="#slides__9"></a>
-                        <a class="slider__navlink" href="#slides__10"></a>
-                        <a class="slider__navlink" href="#slides__11"></a>
-                        <a class="slider__navlink" href="#slides__12"></a>
+                        <a class="slider__navlink" href="#slides__2022_1"></a>
+                        <a class="slider__navlink" href="#slides__2022_2"></a>
+                        <a class="slider__navlink" href="#slides__2022_3"></a>
+                        <a class="slider__navlink" href="#slides__2022_4"></a>
+                        <a class="slider__navlink" href="#slides__2022_5"></a>
+                        <a class="slider__navlink" href="#slides__2022_6"></a>
+                        <a class="slider__navlink" href="#slides__2022_7"></a>
+                        <a class="slider__navlink" href="#slides__2022_8"></a>
+                        <a class="slider__navlink" href="#slides__2022_9"></a>
+                        <a class="slider__navlink" href="#slides__2022_10"></a>
+                        <a class="slider__navlink" href="#slides__2022_11"></a>
+                        <a class="slider__navlink" href="#slides__2022_12"></a>
                         </div>
                     </div>
                 </div>
@@ -163,83 +163,83 @@ class News extends React.Component{
                 <div class="slider-container">
                     <div class="slider">
                         <div class="slides">
-                        <div id="slides__1" class="slide">
+                        <div id="slides__2021_1" class="slide">
                             <span class="slide__text">1</span>
-                            <a class="slide__prev" href="#slides__12" title="Next"></a>
-                            <a class="slide__next" href="#slides__2" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_12" title="Next"></a>
+                            <a class="slide__next" href="#slides__2021_2" title="Next"></a>
                         </div>
-                        <div id="slides__2" class="slide">
+                        <div id="slides__2021_2" class="slide">
                             <span class="slide__text">2
                             02/01/2022: Application is open for NSF Summer REU on Imaging in Medicine and Biology for Underrepresented Minorities at University of Rochester</span>
 
-                            <a class="slide__prev" href="#slides__1" title="Prev"></a>
-                            <a class="slide__next" href="#slides__3" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_1" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_3" title="Next"></a>
                         </div>
-                        <div id="slides__3" class="slide">
+                        <div id="slides__2021_3" class="slide">
                             <span class="slide__text">3</span>
-                            <a class="slide__prev" href="#slides__2" title="Prev"></a>
-                            <a class="slide__next" href="#slides__4" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_2" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_4" title="Next"></a>
                         </div>
-                        <div id="slides__4" class="slide">
+                        <div id="slides__2021_4" class="slide">
                             <span class="slide__text">4</span>
-                            <a class="slide__prev" href="#slides__3" title="Prev"></a>
-                            <a class="slide__next" href="#slides__5" title="Prev"></a>
+                            <a class="slide__prev" href="#slides__2021_3" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_5" title="Prev"></a>
                         </div>
-                        <div id="slides__5" class="slide">
+                        <div id="slides__2021_5" class="slide">
                             <span class="slide__text">5</span>
-                            <a class="slide__prev" href="#slides__4" title="Prev"></a>
-                            <a class="slide__next" href="#slides__6" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_4" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_6" title="Next"></a>
                         </div>
-                        <div id="slides__6" class="slide">
+                        <div id="slides__2021_6" class="slide">
                             <span class="slide__text">6</span>
-                            <a class="slide__prev" href="#slides__5" title="Prev"></a>
-                            <a class="slide__next" href="#slides__7" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_5" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_7" title="Next"></a>
                         </div>
-                        <div id="slides__7" class="slide">
+                        <div id="slides__2021_7" class="slide">
                             <span class="slide__text">7</span>
-                            <a class="slide__prev" href="#slides__6" title="Prev"></a>
-                            <a class="slide__next" href="#slides__8" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_6" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_8" title="Next"></a>
                         </div>
-                        <div id="slides__8" class="slide">
+                        <div id="slides__2021_8" class="slide">
                             <span class="slide__text">8</span>
-                            <a class="slide__prev" href="#slides__7" title="Prev"></a>
-                            <a class="slide__next" href="#slides__9" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_7" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_9" title="Next"></a>
                         </div>
-                        <div id="slides__9" class="slide">
+                        <div id="slides__2021_9" class="slide">
                             <span class="slide__text">9</span>
-                            <a class="slide__prev" href="#slides__8" title="Prev"></a>
-                            <a class="slide__next" href="#slides__10" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_8" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_10" title="Next"></a>
                         </div>
-                        <div id="slides__10" class="slide">
+                        <div id="slides__2021_10" class="slide">
                             <span class="slide__text">10</span>
-                            <a class="slide__prev" href="#slides__9" title="Prev"></a>
-                            <a class="slide__next" href="#slides__11" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_9" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_11" title="Next"></a>
                         </div>
-                        <div id="slides__11" class="slide">
+                        <div id="slides__2021_11" class="slide">
                             <span class="slide__text">11</span>
-                            <a class="slide__prev" href="#slides__10" title="Prev"></a>
-                            <a class="slide__next" href="#slides__12" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_10" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_12" title="Next"></a>
                         </div>
-                        <div id="slides__12" class="slide">
+                        <div id="slides__2021_12" class="slide">
                             <span class="slide__text">12</span>
-                            <a class="slide__prev" href="#slides__11" title="Prev"></a>
-                            <a class="slide__next" href="#slides__1" title="Next"></a>
+                            <a class="slide__prev" href="#slides__2021_11" title="Prev"></a>
+                            <a class="slide__next" href="#slides__2021_1" title="Next"></a>
                         </div>
                         </div>
 
                         <div class="slider__nav">
-                        <a class="slider__navlink" href="#slides__1"></a>
-                        <a class="slider__navlink" href="#slides__2"></a>
-                        <a class="slider__navlink" href="#slides__3"></a>
-                        <a class="slider__navlink" href="#slides__4"></a>
-                        <a class="slider__navlink" href="#slides__5"></a>
-                        <a class="slider__navlink" href="#slides__6"></a>
-                        <a class="slider__navlink" href="#slides__7"></a>
-                        <a class="slider__navlink" href="#slides__8"></a>
-                        <a class="slider__navlink" href="#slides__9"></a>
-                        <a class="slider__navlink" href="#slides__10"></a>
-                        <a class="slider__navlink" href="#slides__11"></a>
-                        <a class="slider__navlink" href="#slides__12"></a>
+                        <a class="slider__navlink" href="#slides__2021_1"></a>
+                        <a class="slider__navlink" href="#slides__2021_2"></a>
+                        <a class="slider__navlink" href="#slides__2021_3"></a>
+                        <a class="slider__navlink" href="#slides__2021_4"></a>
+                        <a class="slider__navlink" href="#slides__2021_5"></a>
+                        <a class="slider__navlink" href="#slides__2021_6"></a>
+                        <a class="slider__navlink" href="#slides__2021_7"></a>
+                        <a class="slider__navlink" href="#slides__2021_8"></a>
+                        <a class="slider__navlink" href="#slides__2021_9"></a>
+                        <a class="slider__navlink" href="#slides__2021_10"></a>
+                        <a class="slider__navlink" href="#slides__2021_11"></a>
+                        <a class="slider__navlink" href="#slides__2021_12"></a>
                         </div>
                     </div>
                 </div>
