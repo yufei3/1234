@@ -659,10 +659,10 @@ a{
 	align-content: center; /*left and right*/
 	margin-left: 5%;
 	margin-right: 5%;
-	background: #3C3B3D;
+	background: #D6DBDF;
 	height: 300px;
 	border-radius: 7px;
-	border: 3px solid #3C3B3D;
+	border: 3px solid #D6DBDF;
 	margin-bottom: 50px;
 	
 }
@@ -672,7 +672,7 @@ year, month-slider{
 	color:rgb(0, 0, 0);
 	font-family: 'Times New Roman', Times, serif;
 	text-align: center;
-	background:#F9F3EE;
+	background:white;
 	place-items: center;
 	border-radius: 5px;
 }
@@ -680,15 +680,46 @@ year{
 	grid-column: 1;
 	grid-row:1;
 	font-size: 4em;
-	margin-left:5%;
+	margin-left:8%;
+	margin-right: 2%;
 	border-radius: 20px;
 	align-content: center;
 	opacity: 0.6;
+	color:black;
 }
+
+year .container{
+	/* background-color: #4d9366; */
+  	display: inline-block;
+  	/*border: 2px solid rgb(192, 15, 15);*/
+}
+
+year .grid {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	grid-template-columns: repeat(4, 50px);
+	grid-template-rows: repeat(3, 40px);
+	grid-gap: 3px;
+}
+
+year .cell {
+	/* center the cell content */
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-family: "Gill Sans", sans-serif;
+   font-size: 1rem;
+   font-weight: bold;
+   background: white;
+   color:black ;
+}
+
+
 
 month-slider{
 	font-size: 1.5em;
-	background:#3C3B3D;
+	background:#D6DBDF;
 	margin-right:2%;
 	text-align: center;
 	border-radius: 20px;
@@ -698,7 +729,7 @@ month-slider{
 }
 
 .slider-container {
-	background: #3C3B3D;
+	background: #D6DBDF;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
@@ -745,7 +776,7 @@ month-slider{
 	background-color: #cfc3a2;
 }
 .slide:nth-of-type(7) {
-	background-color: #dae07a;
+	background-color: #CED372;
 }
 .slide:nth-of-type(8) {
 	background-color: #90c385;
