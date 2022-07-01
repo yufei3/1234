@@ -670,7 +670,7 @@ a{
 year, month-slider{
 	height: 270px;
 	color:rgb(0, 0, 0);
-	font-family: 'Times New Roman', Times, serif;
+	font-family: Arial; 
 	text-align: center;
 	background:white;
 	place-items: center;
@@ -679,13 +679,19 @@ year, month-slider{
 year{
 	grid-column: 1;
 	grid-row:1;
-	font-size: 4em;
+	font-size: 60px;
 	margin-left:8%;
 	margin-right: 2%;
 	border-radius: 20px;
 	align-content: center;
 	opacity: 0.6;
+}
+
+year .title{
+	margin-top: 10px;
 	color:black;
+	/* -webkit-text-stroke: 1px #F3E5AB; */
+	font-variant-numeric: oldstyle-nums;
 }
 
 year .container{
@@ -698,12 +704,12 @@ year .grid {
 	display: grid;
 	align-content: center;
 	justify-content: center;
-	grid-template-columns: repeat(4, 50px);
-	grid-template-rows: repeat(3, 40px);
+	grid-template-columns: repeat(4, 45px);
+	grid-template-rows: repeat(3, 45px);
 	grid-gap: 3px;
 }
 
-year .cell {
+.cell {
 	/* center the cell content */
    justify-content: center;
    align-items: center;
@@ -711,11 +717,19 @@ year .cell {
    font-family: "Gill Sans", sans-serif;
    font-size: 1rem;
    font-weight: bold;
-   background: white;
+   background: #F3E5AB;
    color:black ;
+   border-radius: 50%;
+   
 }
 
+.cell:hover{
+	background:#966919;
+}
 
+.cell .a{
+	color:white;
+}
 
 month-slider{
 	font-size: 1.5em;
